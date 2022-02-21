@@ -8,7 +8,7 @@ public class presentationStat {
         metier.setDao(new DaoImpl());
         System.out.println(metier.calcul());
 
-        System.out.println("**********************");
+        System.out.println("***********************");
 
         MetierImpl metierCapt=new MetierImpl();
         metierCapt.setDao(new DaoImplCapt());
