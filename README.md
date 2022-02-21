@@ -6,3 +6,4 @@
 
 ---
 
+<img src="./github/assets/images/rodape_readme.jpg" alt="Art for footer readme.md" />
