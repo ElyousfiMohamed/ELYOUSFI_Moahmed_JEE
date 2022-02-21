@@ -7,7 +7,7 @@
 ---
 
 <details>
-    <summary>TP1</summary>
+    <summary>TP1 - Injection de dependances Statique/Dynamique/Framework</summary>
     <br />
     <p align="center">
         Coming soon...
