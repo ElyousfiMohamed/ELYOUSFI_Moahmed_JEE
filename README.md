@@ -1,4 +1,4 @@
-<img src="topo_readme.jpg"/>
+<img src="./github/assets/images/topo_readme.jpg"/>
 
 <h1 align="center">Mohamed ELYOUSFI JEE</h1>
 
