@@ -24,7 +24,8 @@
         <pre>Résultat d'exécution :</pre>
         <img src="./github/assets/images/TP1/Screenshot_15_resultat injct stat.png"/>
         <h3>2- Injection de dependances Dynamique</h3>
-        <pre>L'injection dynamique et faite à l'aide d'un fichier config.txt qui contient les noms des classes qui vont etre chargé dans la couche presentation</pre>
+        <pre>L'injection dynamique et faite à l'aide d'un fichier config.txt qui contient les noms des classes qui vont 
+etre chargé dans la couche presentation</pre>
         <img src="./github/assets/images/TP1/Screenshot_9.png"/>
         <pre>1 : Chargement du fichier config.txt
 2 : Lecture des noms complets(package + nom de la classe) des classes existant dans ce fichier
@@ -32,7 +33,15 @@
 4 : L'instanciation des classes(si ces classe ont un constructeur sans paramètre)
 5 : Chargement et invocation(injection) du methode "setDao"</pre>
         <img src="./github/assets/images/TP1/Screenshot_8.png"/>
-    <h3>2- Injection des dépendances avec Spring</h3>
+    <pre>Résultat d'exécution :</pre>
+    <img src="./github/assets/images/TP1/Screenshot_15_resultat inct dyn.png"/>
+    <h3>3- Injection des dépendances avec Spring</h3>
+    <pre><h4>3.1- Avec fichier beans.xml : </h4>
+C'est un peu comme le principe de fichier de configuration dans l'injection dynamique, mais ici les instances sont 
+passé a travers des beans</pre>
+    <img src="./github/assets/images/TP1/Screenshot_10.png"/>
+    <pre>Et aprés on va récupurer les beans par la méthode <b>"getBean"</b></pre>
+    <img src="./github/assets/images/TP1/Screenshot_14.png"/>
     </p>
 </details>
 
