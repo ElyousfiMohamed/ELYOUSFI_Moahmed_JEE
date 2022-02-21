@@ -15,7 +15,7 @@
 </details>
 
 <details>
-    <summary>TP1</summary>
+    <summary>TP2</summary>
     <br />
     <p align="center">
         Coming soon...
