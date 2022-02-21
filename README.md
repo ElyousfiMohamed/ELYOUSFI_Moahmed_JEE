@@ -6,4 +6,19 @@
 
 ---
 
+<details>
+    <summary>TP1</summary>
+    <br />
+    <p align="center">
+        Coming soon...
+    </p>
+  
+    <br /><br />
+  
+    <summary>TP2</summary>
+    <br />
+    <p align="center">
+        Coming soon...
+    </p>
+    
 <img src="./github/assets/images/rodape_readme.jpg" alt="Art for footer readme.md" />
