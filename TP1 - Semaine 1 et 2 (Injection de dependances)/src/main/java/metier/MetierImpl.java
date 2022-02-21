@@ -9,6 +9,14 @@ import org.springframework.stereotype.Component;
 public class MetierImpl implements IMetier{
     @Autowired
     private IDao dao;
+
+    /*public MetierImpl() {
+    }
+
+    public MetierImpl(IDao dao) {
+        this.dao = dao;
+    }*/
+
     @Override
     public double calcul() {
         return dao.getData()*5/Math.sin(15);
