@@ -9,8 +9,13 @@
 <details>
     <summary>TP1 - Injection de dependances Statique/Dynamique/Framework</summary>
     <br />
-    <p align="center">
-        Coming soon...
+    <p>
+        On considère le schéma suivant ou les classes sont liées par un couplage faible<br>
+        <img src="./github/assets/images/TP1/Screenshot_1.png"/>
+        Implémentation en java : 
+            - Interface IDao et leurs implémentations 
+        <img src="./github/assets/images/TP1/Screenshot_3.png"/>
+        <img src="./github/assets/images/TP1/Screenshot_4.png"/>
     </p>
 </details>
 
