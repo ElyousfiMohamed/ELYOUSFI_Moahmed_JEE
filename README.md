@@ -37,11 +37,14 @@ etre chargé dans la couche presentation</pre>
     <img src="./github/assets/images/TP1/Screenshot_15_resultat inct dyn.png"/>
     <h3>3- Injection des dépendances avec Spring</h3>
     <pre><h4>3.1- Avec fichier beans.xml : </h4>
-C'est un peu comme le principe de fichier de configuration dans l'injection dynamique, mais ici les instances sont 
-passé a travers des beans</pre>
+C'est un peu comme le principe de fichier de configuration dans l'injection dynamique, 
+mais ici les instances sont passé a travers des beans</pre>
     <img src="./github/assets/images/TP1/Screenshot_10.png"/>
     <pre>Et aprés on va récupurer les beans par la méthode <b>"getBean"</b></pre>
     <img src="./github/assets/images/TP1/Screenshot_14.png"/>
+    <pre>Résultat d'exécution :</pre>
+    <img src="./github/assets/images/TP1/Screenshot_15.png"/>
+    <pre><h4>3.2- Avec les annotations : </h4></pre>
     </p>
 </details>
 
