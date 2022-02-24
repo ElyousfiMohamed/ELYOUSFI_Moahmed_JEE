@@ -45,6 +45,11 @@ mais ici les instances sont passé a travers des beans</pre>
     <pre>Résultat d'exécution :</pre>
     <img src="./github/assets/images/TP1/Screenshot_15.png"/>
     <pre><h4>3.2- Avec les annotations : </h4></pre>
+    <img src="./github/assets/images/TP1/Screenshot_17.png"/>
+    <img src="./github/assets/images/TP1/Screenshot_18.png"/>
+    <img src="./github/assets/images/TP1/Screenshot_19.png"/>
+    <pre>Résultat d'exécution :</pre>
+    <img src="./github/assets/images/TP1/Screenshot_16.png"/>
     </p>
 </details>
 
