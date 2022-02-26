@@ -17,11 +17,11 @@
         <pre>- Interface IMetier et son implémentation :</pre>
         <img src="./github/assets/images/TP1/Screenshot_5.png" width="700"/>
         <img src="./github/assets/images/TP1/Screenshot_4.png" width="700"/>
-        <h3>1- Injection de dependances par instaciation Statique</h3>
+        <h3>1- Injection de dependances par instanciation Statique</h3>
         <img src="./github/assets/images/TP1/Screenshot_7.png" width="700"/>
         <pre>Résultat d'exécution :</pre>
         <img src="./github/assets/images/TP1/Screenshot_15_resultat injct stat.png"/>
-        <h3>2- Injection de dependances par instaciation Dynamique</h3>
+        <h3>2- Injection de dependances par instanciation Dynamique</h3>
         <pre>L'injection dynamique et faite à l'aide d'un fichier config.txt qui contient les noms des classes qui vont 
 etre chargé dans la couche presentation</pre>
         <img src="./github/assets/images/TP1/Screenshot_9.png" width="700"/>
