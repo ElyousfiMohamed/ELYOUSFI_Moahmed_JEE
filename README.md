@@ -5,7 +5,7 @@
 ---
 
 <details>
-    <summary>TP1 - Injection de dependances par instanciation Statique/Dynamique/Framework<a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP1%20-%20Semaine%201%20et%202%20(Injection%20de%20dependances)"> [Code source]</a></summary><br>
+    <summary>TP1 - Injection des dépendances par instanciation Statique/Dynamique/Framework<a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP1%20-%20Semaine%201%20et%202%20(Injection%20de%20dependances)"> [Code source]</a></summary><br>
     <p>
         On considère le schéma suivant ou les classes sont liées par un couplage faible<br>
         <center><img src="./github/assets/images/TP1/Screenshot_1.png"/></center>
@@ -17,11 +17,11 @@
         <pre>- Interface IMetier et son implémentation :</pre>
         <img src="./github/assets/images/TP1/Screenshot_5.png" width="700"/>
         <img src="./github/assets/images/TP1/Screenshot_4.png" width="700"/>
-        <h3>1- Injection de dependances par instanciation Statique</h3>
+        <h3>1- Injection des dépendances par instanciation Statique</h3>
         <img src="./github/assets/images/TP1/Screenshot_7.png" width="700"/>
         <pre>Résultat d'exécution :</pre>
         <img src="./github/assets/images/TP1/Screenshot_15_resultat injct stat.png"/>
-        <h3>2- Injection de dependances par instanciation Dynamique</h3>
+        <h3>2- Injection des dépendances par instanciation Dynamique</h3>
         <pre>L'injection dynamique et faite à l'aide d'un fichier config.txt qui contient les noms des classes qui vont 
 etre chargé dans la couche presentation</pre>
         <img src="./github/assets/images/TP1/Screenshot_9.png" width="700"/>
