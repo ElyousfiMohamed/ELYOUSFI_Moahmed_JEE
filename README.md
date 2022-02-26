@@ -10,7 +10,7 @@
         On considère le schéma suivant ou les classes sont liées par un couplage faible<br>
         <center><img src="./github/assets/images/TP1/Screenshot_1.png"/></center>
         <pre>Implémentation en java :
-- Interface IDao et leurs implémentations :</pre>
+- Interface IDao et ses implémentations :</pre>
         <img src="./github/assets/images/TP1/Screenshot_3.png" width="700" />
         <img src="./github/assets/images/TP1/Screenshot_2.png" width="700"/>
         <img src="./github/assets/images/TP1/Screenshot_6.png" width="700"/>
