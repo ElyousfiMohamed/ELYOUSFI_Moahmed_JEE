@@ -7,7 +7,7 @@
 ---
 
 <details>
-    <summary>TP1 - Injection de dependances Statique/Dynamique/Framework<a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP1%20-%20Semaine%201%20et%202%20(Injection%20de%20dependances)">[Code source]</a></summary><br>
+    <summary>TP1 - Injection de dependances Statique/Dynamique/Framework<a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP1%20-%20Semaine%201%20et%202%20(Injection%20de%20dependances)"> [Code source]</a></summary><br>
     <p>
         On considère le schéma suivant ou les classes sont liées par un couplage faible<br>
         <center><img src="./github/assets/images/TP1/Screenshot_1.png"/></center>
