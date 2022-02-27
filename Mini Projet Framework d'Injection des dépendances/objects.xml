@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xmlns="D:\GITHUB\ELYOUSFI_Moahmed_JEE\Mini Projet Framework d'Injection des dépendances\objects.xsd"
+         xsd:noNamespaceSchemaLocation="objects.xsd">
+        <object objectName="da" className="userSimulation.dao.DaoImpl"/>
+        <object objectName="mt" className="userSimulation.metier.MetierImpl">
+            <property name="dao" ref="da"/>
+        </object>
+</objects>

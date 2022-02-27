@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ac5e197-090d-4bca-8c91-16974644606f" name="Changes" comment="TP1 - Injection de dependances Statique/Dynamique/Framework">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/structure/Injector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/structure/Object.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/structure/Objects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/structure/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/structure/schemaGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/presentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/resources/objects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/resources/objects.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/objects.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/structure/Injector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/structure/Object.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/structure/Objects.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/structure/Property.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/structure/schemaGenerator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/structure/schemaGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/dao/DaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/dao/IDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/ext/DaoImplCapt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/metier/IMetier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/metier/MetierImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/presentation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/PresentationSpring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/PresentationSpringAnot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/dao/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/dao/DaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/dao/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/dao/IDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/ext/DaoImplCapt.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/ext/DaoImplCapt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/metier/IMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/metier/IMetier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/metier/MetierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/metier/MetierImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/presentationDyn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/presentationStat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/resources/beans.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25Qm65ftY8Ih4hMHjkUqO0InW8V" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/injectionSpring" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GITHUB\ELYOUSFI_Moahmed_JEE\github\assets\images\TP1" />
+      <recent name="D:\GITHUB\ELYOUSFI_Moahmed_JEE\github\assets\images" />
+      <recent name="D:\GITHUB\ELYOUSFI_Moahmed_JEE\TP1 - Semaine 1 et 2 (Injection de dependances)" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GITHUB\ELYOUSFI_Moahmed_JEE\github\assets\images\TP1" />
+      <recent name="D:\GITHUB\ELYOUSFI_Moahmed_JEE\github\assets\images" />
+      <recent name="D:\GITHUB\ELYOUSFI_Moahmed_JEE\TP1 - Semaine 1 et 2 (Injection de dependances)" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ac5e197-090d-4bca-8c91-16974644606f" name="Changes" comment="" />
+      <created>1645467506342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645467506342</updated>
+      <workItem from="1645467508687" duration="1975000" />
+      <workItem from="1645469561116" duration="3463000" />
+      <workItem from="1645713858674" duration="63000" />
+      <workItem from="1645735895968" duration="1711000" />
+      <workItem from="1645974098129" duration="5861000" />
+    </task>
+    <task id="LOCAL-00001" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
+      <created>1645467778532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645467778532</updated>
+    </task>
+    <task id="LOCAL-00002" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
+      <created>1645468567114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645468567114</updated>
+    </task>
+    <task id="LOCAL-00003" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
+      <created>1645469431089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645469431089</updated>
+    </task>
+    <task id="LOCAL-00004" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
+      <created>1645469615420</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645469615420</updated>
+    </task>
+    <task id="LOCAL-00005" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
+      <created>1645470149756</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645470149756</updated>
+    </task>
+    <task id="LOCAL-00006" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
+      <created>1645470794452</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645470794452</updated>
+    </task>
+    <task id="LOCAL-00007" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
+      <created>1645471008448</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645471008448</updated>
+    </task>
+    <task id="LOCAL-00008" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
+      <created>1645471196888</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645471196888</updated>
+    </task>
+    <task id="LOCAL-00009" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
+      <created>1645473949051</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1645473949051</updated>
+    </task>
+    <task id="LOCAL-00010" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
+      <created>1645736182462</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645736182462</updated>
+    </task>
+    <task id="LOCAL-00011" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
+      <created>1645736399142</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645736399142</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="TP1 - Injection de dependances Statique/Dynamique/Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP1 - Injection de dependances Statique/Dynamique/Framework" />
+  </component>
+</project>

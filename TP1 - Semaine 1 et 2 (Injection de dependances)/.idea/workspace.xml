@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63e778b2-b213-4c31-9511-28eddfb90850" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/src/main/java/structure/Injector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/src/main/java/structure/Object.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/src/main/java/structure/Objects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/src/main/java/structure/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/src/main/java/structure/schemaGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/presentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/src/main/resources/objects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/src/main/resources/objects.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/target/classes/objects.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/target/classes/structure/Injector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/target/classes/structure/Object.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/target/classes/structure/Objects.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/target/classes/structure/Property.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/target/classes/structure/schemaGenerator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/target/classes/structure/schemaGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/dao/DaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/dao/IDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/ext/DaoImplCapt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/metier/IMetier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/metier/MetierImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/presentation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationSpring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationSpringAnot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/dao/DaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/dao/IDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ext/DaoImplCapt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/ext/DaoImplCapt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/metier/IMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/metier/IMetier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/metier/MetierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/metier/MetierImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/presentationDyn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/presentationStat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="25hpWm2mDyn4y6Sn7vCBsi0FOJB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63e778b2-b213-4c31-9511-28eddfb90850" name="Changes" comment="" />
+      <created>1645989208662</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645989208662</updated>
+      <workItem from="1645989209764" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
