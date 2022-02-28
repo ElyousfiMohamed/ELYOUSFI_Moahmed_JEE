@@ -52,7 +52,15 @@ mais ici les instances sont passé a travers des beans</pre>
 </details>
 
 <details>
-    <summary>TP2</summary>
+    <summary>Mini Projet Framework d'Injection des dépendances <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/Mini%20Projet%20Framework%20d'Injection%20des%20d%C3%A9pendances"> [Code source]</a></summary>
+    <br />
+    <p align="center">
+        Coming soon...
+    </p>
+</details>
+
+<details>
+    <summary>TP2 - Java Persistence API (JPA) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20Java%20Persistence%20API%20(JPA)"> [Code source]</a></summary>
     <br />
     <p align="center">
         Coming soon...
