@@ -1,15 +1,25 @@
 package structure;
 
 import javax.xml.bind.annotation.*;
+import java.io.Serializable;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Object {
+public class Object implements Serializable {
     @XmlAttribute
     private String objectName;
     @XmlAttribute
     private String className;
-    @XmlElement
+    @XmlElement(name="property")
     private Property property;
+
+    @Override
+    public String toString() {
+        return "Object{" +
+                "objectName='" + objectName + '\'' +
+                ", className='" + className + '\'' +
+                ", property=" + property +
+                '}';
+    }
 
     public String getObjectName() {
         return objectName;

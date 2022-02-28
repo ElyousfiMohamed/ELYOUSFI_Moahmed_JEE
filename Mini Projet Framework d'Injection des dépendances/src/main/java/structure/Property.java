@@ -7,16 +7,16 @@ import java.io.Serializable;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Property implements Serializable {
     @XmlAttribute
-    private String name;
+    private String nom;
     @XmlAttribute
     private String ref;
 
-    public String getName() {
-        return name;
+    public String getNom() {
+        return nom;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNom(String nom) {
+        this.nom = nom;
     }
 
     public String getRef() {

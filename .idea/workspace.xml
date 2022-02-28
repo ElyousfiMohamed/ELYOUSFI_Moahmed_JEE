@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ac5e197-090d-4bca-8c91-16974644606f" name="Changes" comment="TP1 - Injection de dependances Statique/Dynamique/Framework">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/structure/Injector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/structure/Object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/structure/Objects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/structure/Property.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/structure/schemaGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/presentation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/resources/objects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/resources/objects.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/objects.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/structure/Injector.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/structure/Object.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/structure/Objects.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/structure/Property.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/structure/schemaGenerator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/structure/schemaGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/dao/DaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/dao/IDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/ext/DaoImplCapt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/metier/IMetier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/metier/MetierImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/target/classes/userSimulation/presentation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/PresentationSpring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/PresentationSpringAnot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/dao/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/dao/DaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/dao/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/dao/IDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/ext/DaoImplCapt.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/ext/DaoImplCapt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/metier/IMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/metier/IMetier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/metier/MetierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances/src/main/java/userSimulation/metier/MetierImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/presentationDyn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/java/presentationStat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP1 - Semaine 1 et 2 (Injection de dependances)/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/injectionSpring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -94,6 +57,8 @@
       <workItem from="1645713858674" duration="63000" />
       <workItem from="1645735895968" duration="1711000" />
       <workItem from="1645974098129" duration="5861000" />
+      <workItem from="1645991693891" duration="82000" />
+      <workItem from="1645991796086" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
       <created>1645467778532</created>
