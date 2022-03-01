@@ -55,7 +55,18 @@ mais ici les instances sont passé a travers des beans</pre>
     <summary>TP2 - Java Persistence API (JPA) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20Java%20Persistence%20API%20(JPA)"> [Code source]</a></summary>
     <br />
     <p align="center">
-        Coming soon...
+        <h3>Spring Data</h3> 
+        <img src="./github/assets/images/TP2/Screenshot_1.png" height="330" width="700"/>
+        <h3>Application.properties</h3>   
+        <img src="./github/assets/images/TP2/Screenshot_2.png" width="700"/>
+        <h3>Entité Patient</h3>  
+        <img src="./github/assets/images/TP2/Screenshot_3.png" height="330" width="700"/>
+        <h3>Patient Repository</h3>  
+        <img src="./github/assets/images/TP2/Screenshot_4.png" height="330" width="700"/>    
+        <h3>h2-console</h3>  
+        <img src="./github/assets/images/TP2/Screenshot_5.png" height="330" width="700"/> 
+        <h3>Table Patient</h3>  
+        <img src="./github/assets/images/TP2/Screenshot_6.png" height="330" width="700"/> 
     </p>
 </details>
 
