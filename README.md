@@ -66,7 +66,7 @@ mais ici les instances sont passé a travers des beans</pre>
         <h3>Application Spring</h3>  
         <img src="./github/assets/images/TP2/Screenshot_5.png" height="330" width="700"/> 
         <h3>h2-console</h3>  
-        <img src="./github/assets/images/TP2/Screenshot_6.png" height="330" width="700"/> 
+        <img src="./github/assets/images/TP2/Screenshot_6.png"/> 
         <h3>Table Patient</h3>  
         <img src="./github/assets/images/TP2/Screenshot_7.png" height="330" width="700"/> 
     </p>
