@@ -43,9 +43,9 @@ mais ici les instances sont passé a travers des beans</pre>
     <pre>Résultat d'exécution :</pre>
     <img src="./github/assets/images/TP1/Screenshot_15.png"/>
     <pre><h4>3.2- Avec les annotations : </h4></pre>
-    <img src="./github/assets/images/TP1/Screenshot_17.png" height="330" width="700"/>
-    <img src="./github/assets/images/TP1/Screenshot_18.png" height="330" width="700"/>
-    <img src="./github/assets/images/TP1/Screenshot_19.png" height="330" width="700"/>
+    <img src="./github/assets/images/TP1/Screenshot_17.png" width="700"/>
+    <img src="./github/assets/images/TP1/Screenshot_18.png" width="700"/>
+    <img src="./github/assets/images/TP1/Screenshot_19.png" width="700"/>
     <pre>Résultat d'exécution :</pre>
     <img src="./github/assets/images/TP1/Screenshot_16.png"/>
     </p>
@@ -56,19 +56,19 @@ mais ici les instances sont passé a travers des beans</pre>
     <br />
     <p align="center">
         <h3>Spring Data</h3> 
-        <img src="./github/assets/images/TP2/Screenshot_1.png" height="330" width="700"/>
+        <img src="./github/assets/images/TP2/Screenshot_1.png" width="700"/>
         <h3>Application.properties</h3>   
         <img src="./github/assets/images/TP2/Screenshot_2.png" width="700"/>
         <h3>Entité Patient</h3>  
-        <img src="./github/assets/images/TP2/Screenshot_3.png" height="330" width="700"/>
+        <img src="./github/assets/images/TP2/Screenshot_3.png" width="700"/>
         <h3>Patient Repository</h3>  
-        <img src="./github/assets/images/TP2/Screenshot_4.png" height="330" width="700"/> 
+        <img src="./github/assets/images/TP2/Screenshot_4.png" width="700"/> 
         <h3>Application Spring</h3>  
-        <img src="./github/assets/images/TP2/Screenshot_5.png" height="330" width="700"/> 
+        <img src="./github/assets/images/TP2/Screenshot_5.png" width="700"/> 
         <h3>h2-console</h3>  
         <img src="./github/assets/images/TP2/Screenshot_6.png"/> 
         <h3>Table Patient</h3>  
-        <img src="./github/assets/images/TP2/Screenshot_7.png" height="330" width="700"/> 
+        <img src="./github/assets/images/TP2/Screenshot_7.png" width="700"/> 
     </p>
 </details>
 
