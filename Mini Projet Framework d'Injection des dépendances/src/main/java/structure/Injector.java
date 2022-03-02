@@ -24,12 +24,14 @@ public class Injector {
         Class c1=Class.forName(objs.getObjects().get(0).getClassName());
         Class c2=Class.forName(o.getClassName());
 
-
+        /****** Partie setter ******/
         /*String fctName = o.getProperty().getNom().substring(0,1).toUpperCase() + o.getProperty().getNom().substring(1);
 
         java.lang.Object obj = c2.newInstance();
         Method meth = c2.getMethod("set"+fctName,c1.getInterfaces());
         meth.invoke(obj,c1.newInstance());*/
+
+        /****** Partie constructor ******/
 
         Constructor constructor = c2.getConstructor(c1.getInterfaces());
         java.lang.Object obj = constructor.newInstance(c1.newInstance());
