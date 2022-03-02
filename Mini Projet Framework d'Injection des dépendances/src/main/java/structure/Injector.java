@@ -24,7 +24,7 @@ public class Injector {
         String fctName = o.getProperty().getNom().substring(0,1).toUpperCase() + o.getProperty().getNom().substring(1);
 
         java.lang.Object obj = c2.newInstance();
-        Method meth = obj.getClass().getMethod("set"+fctName,c1.getInterfaces()[0]);
+        Method meth = obj.getClass().getMethod("set"+fctName,c1.getInterfaces());
         meth.invoke(obj,c1.newInstance());
 
         this.object = obj;

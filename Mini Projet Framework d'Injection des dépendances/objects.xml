@@ -4,5 +4,4 @@
         <object objectName="mt" className="userSimulation.metier.MetierImpl">
             <property nom="dao" ref="da"/>
         </object>
-
 </objects>
