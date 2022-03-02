@@ -33,8 +33,14 @@ public class Injector {
 
         /****** Partie constructor ******/
 
-        Constructor constructor = c2.getConstructor(c1.getInterfaces());
-        java.lang.Object obj = constructor.newInstance(c1.newInstance());
+        /*Constructor constructor = c2.getConstructor(c1.getInterfaces());
+        java.lang.Object obj = constructor.newInstance(c1.newInstance());*/
+
+        /****** Partie Attribut ******/
+        String attName = o.getProperty().getNom();
+
+        java.lang.Object obj = c2.newInstance();
+        c2.getDeclaredField(attName).set(obj,c1.newInstance());
 
         this.object = obj;
     }

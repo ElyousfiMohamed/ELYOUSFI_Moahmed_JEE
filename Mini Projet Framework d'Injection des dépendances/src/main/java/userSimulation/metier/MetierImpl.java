@@ -3,7 +3,8 @@ package userSimulation.metier;
 import userSimulation.dao.IDao;
 
 public class MetierImpl implements IMetier{
-    protected IDao dao;
+
+    public IDao dao;
 
     public MetierImpl(IDao dao) {
         this.dao = dao;
