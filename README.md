@@ -80,21 +80,18 @@ mais ici les instances sont passé a travers des beans</pre>
         Coming soon...
         <h3>Realisation</h3>
         <h4>1 - Avec XML</h4>
-        <h5>1.1 - Setter</h5>
+        <h5> 1.1 - Setter</h5>
         Coming soon...
-        <h5>1.2 - Constructeur</h5>
+        <h5> 1.2 - Constructeur</h5>
         Coming soon...  
-        <h5>1.3 - Accés direct</h5>
+        <h5> 1.3 - Accés direct</h5>
         Coming soon...
-    
-        ---
-    
         <h4>2 - Avec les Annotations</h4>
-        <h5>2.1 - Setter</h5>
+        <h5> 2.1 - Setter</h5>
         Coming soon...
-        <h5>2.2 - Constructeur</h5>
+        <h5> 2.2 - Constructeur</h5>
         Coming soon...  
-        <h5>2.3 - Accés direct</h5>
+        <h5> 2.3 - Accés direct</h5>
         Coming soon...
     </p>
 </details>
