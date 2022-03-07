@@ -22,5 +22,4 @@ public interface PatientRepository extends JpaRepository<Patient,Long> {
     public List<Patient> chercherPatient(@Param("x") Date d1,@Param("y") Date d2,@Param("z") String name);
 
 
-
 }
