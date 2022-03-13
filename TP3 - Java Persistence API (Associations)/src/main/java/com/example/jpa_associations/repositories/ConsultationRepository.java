@@ -5,4 +5,5 @@ import com.example.jpa_associations.model.Patient;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ConsultationRepository extends JpaRepository<Consultation,Long> {
+
 }

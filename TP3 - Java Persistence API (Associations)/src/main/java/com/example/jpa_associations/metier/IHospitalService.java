@@ -4,6 +4,7 @@ import com.example.jpa_associations.model.Consultation;
 import com.example.jpa_associations.model.Medecin;
 import com.example.jpa_associations.model.Patient;
 import com.example.jpa_associations.model.RendezVous;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface IHospitalService {
     Patient savePatient(Patient patient);

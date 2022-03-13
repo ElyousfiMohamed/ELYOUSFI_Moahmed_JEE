@@ -5,8 +5,10 @@ import com.example.jpa_associations.model.Medecin;
 import com.example.jpa_associations.model.Patient;
 import com.example.jpa_associations.model.*;
 import com.example.jpa_associations.repositories.*;
+import org.springframework.stereotype.Component;
 
-public class HospitalImpl implements  IHospitalService{
+@Component("hospital")
+public class HospitalImpl implements  IHospitalService {
     private PatientRepository patientRepository;
     private MedecinRepository medecinRepository;
     private ConsultationRepository consultationRepository;
