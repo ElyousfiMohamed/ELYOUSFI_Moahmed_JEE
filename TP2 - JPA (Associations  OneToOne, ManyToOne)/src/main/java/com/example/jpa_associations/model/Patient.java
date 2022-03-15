@@ -17,8 +17,4 @@ public class Patient {
     private Date dateDeNaissance;
     @OneToMany(mappedBy = "patient")
     private Collection<RendezVous> rendezVous;
-
-
-
-
 }

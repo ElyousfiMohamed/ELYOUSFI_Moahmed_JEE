@@ -19,7 +19,8 @@ public class JpaAssociationsApplication {
     }
 
     @Bean
-    CommandLineRunner start(IHospitalService hospitalService,PatientRepository patientRepository, MedecinRepository medecinRepository, RendezVousRepository rendezVousRepository, ConsultationRepository consultationRepository) {
+    CommandLineRunner start(IHospitalService hospitalService,PatientRepository patientRepository, MedecinRepository medecinRepository,
+                            RendezVousRepository rendezVousRepository, ConsultationRepository consultationRepository) {
         return args -> {
             Stream.of("Mohamed","Hassan","Najat").forEach(name -> {
                 Patient patient = new Patient();

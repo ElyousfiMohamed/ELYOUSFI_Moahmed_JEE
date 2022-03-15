@@ -5,21 +5,16 @@ import com.example.jpa_associations.model.Medecin;
 import com.example.jpa_associations.model.Patient;
 import com.example.jpa_associations.model.*;
 import com.example.jpa_associations.repositories.*;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 
+@AllArgsConstructor
 @Component("IHospitalService")
 public class HospitalImpl implements  IHospitalService {
     private PatientRepository patientRepository;
     private MedecinRepository medecinRepository;
     private ConsultationRepository consultationRepository;
     private RendezVousRepository rendezVousRepository;
-
-    public HospitalImpl(PatientRepository patientRepository, MedecinRepository medecinRepository, ConsultationRepository consultationRepository, RendezVousRepository rendezVousRepository) {
-        this.patientRepository = patientRepository;
-        this.medecinRepository = medecinRepository;
-        this.consultationRepository = consultationRepository;
-        this.rendezVousRepository = rendezVousRepository;
-    }
 
     @Override
     public Patient savePatient(Patient patient) {
