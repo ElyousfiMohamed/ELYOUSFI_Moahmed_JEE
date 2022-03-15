@@ -2,42 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ac5e197-090d-4bca-8c91-16974644606f" name="Changes" comment="TP1 - Injection de dependances Statique/Dynamique/Framework">
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/JpaAssociationsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/metier/HospitalImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/metier/IHospitalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/model/Consultation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/model/Medecin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/model/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/model/RendezVous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/model/StatusRDV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/repositories/ConsultationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/repositories/MedecinRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/repositories/PatientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/repositories/RendezVousRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/web/PatientRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/test/java/com/example/jpa_associations/JpaAssociationsApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12_[Changes]/DaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12_[Changes]/DaoImplCapt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12_[Changes]/IDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12_[Changes]/IMetier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12_[Changes]/Injector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12_[Changes]/MetierImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12_[Changes]/Object.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12_[Changes]/Objects.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12_[Changes]/Property.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12_[Changes]/presentation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12_[Changes]/schemaGenerator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12_[Changes]/schemaGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_02_2022_20_12__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/src/main/java/com/example/manytomanydemo/ManyToManyDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/src/main/java/com/example/manytomanydemo/entities/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/src/main/java/com/example/manytomanydemo/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/src/main/java/com/example/manytomanydemo/repositories/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/src/main/java/com/example/manytomanydemo/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/src/main/java/com/example/manytomanydemo/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/src/main/java/com/example/manytomanydemo/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Association ManyToMany)/src/test/java/com/example/manytomanydemo/ManyToManyDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/JpaAssociationsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/metier/HospitalImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/metier/IHospitalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/model/Consultation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/model/Medecin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/model/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/model/RendezVous.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/model/StatusRDV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/repositories/ConsultationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/repositories/MedecinRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/repositories/PatientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/repositories/RendezVousRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/java/com/example/jpa_associations/web/PatientRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)/src/test/java/com/example/jpa_associations/JpaAssociationsApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TP2 - Java Persistence API (Associations  OneToOne, ManyToOne)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TP2 - JPA (Associations  OneToOne, ManyToOne)" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -96,6 +97,8 @@
       <workItem from="1647375930188" duration="29000" />
       <workItem from="1647375970016" duration="9000" />
       <workItem from="1647375983077" duration="23000" />
+      <workItem from="1647376055250" duration="8000" />
+      <workItem from="1647376078528" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
       <created>1645467778532</created>
