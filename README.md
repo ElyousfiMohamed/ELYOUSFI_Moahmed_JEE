@@ -2,8 +2,6 @@
 <h1 align="center">Mohamed ELYOUSFI</h1>
 <h2 align="center"><💻 Compte Rendu des Travaux Pratiques JEE💻/></h2>
 
----
-
 <details>
     <summary>TP1 - Injection des dépendances par instanciation Statique/Dynamique/Framework<a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP1%20-%20Semaine%201%20et%202%20(Injection%20de%20dependances)"> [Code source]</a></summary><br>
     <p>
