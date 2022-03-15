@@ -51,6 +51,8 @@ mais ici les instances sont passé a travers des beans</pre>
     </p>
 </details>
 
+---
+
 <details>
     <summary>TP2 - Java Persistence API (JPA) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20Java%20Persistence%20API%20(JPA)"> [Code source]</a></summary>
     <br />
@@ -71,6 +73,8 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP2/Screenshot_7.png" width="700"/> 
     </p>
 </details>
+
+---
 
 <details>
     <summary>TP2 - JPA (Associations OneToOne, ManyToOne) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20JPA%20(Associations%20%20OneToOne%2C%20ManyToOne)"> [Code source]</a></summary>
@@ -120,6 +124,8 @@ mais ici les instances sont passé a travers des beans</pre>
     </p>
 </details>
 
+---
+
 <details>
     <summary>TP2 - JPA (Association ManyToMany) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20JPA%20(Association%20ManyToMany)"> [Code source]</a></summary>
     <br />
@@ -155,6 +161,8 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP2.2/Screenshot_13.png"/> 
     </p>
 </details>
+
+---
 
 <details>
     <summary>Mini Projet Framework d'Injection des dépendances <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/Mini%20Projet%20Framework%20d'Injection%20des%20d%C3%A9pendances"> [Code source]</a></summary>
