@@ -78,7 +78,6 @@ mais ici les instances sont passé a travers des beans</pre>
     <p align="center">
         <h3>Diagramme de classe</h3>
         <img src="./github/assets/images/TP2.1/Screenshot_19.png" width="700"/>
-    
         <h3>Les modeles</h3>
         <h5>- Consultation</h5>
         <img src="./github/assets/images/TP2.1/Screenshot_1.png" width="700"/>
@@ -90,7 +89,6 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP2.1/Screenshot_4.png" width="700"/>
         <h5>- Enumeration statusRdv</h5>
         <img src="./github/assets/images/TP2.1/Screenshot_5.png" width="700"/>
-    
         <h3>Repositories</h3>   
         <h5>- Consultation Repository</h5>
         <img src="./github/assets/images/TP2.1/Screenshot_6.png" width="700"/> 
@@ -100,20 +98,16 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP2.1/Screenshot_8.png" width="700"/> 
         <h5>- RendezVous Repository</h5>
         <img src="./github/assets/images/TP2.1/Screenshot_9.png" width="700"/>
-    
         <h3>Couche metier (Service)</h3>   
         <h5>- Interface IHospitalService</h5>
         <img src="./github/assets/images/TP2.1/Screenshot_10.png" width="700"/> 
         <h5>- Une implémentation de cette interface</h5>
         <img src="./github/assets/images/TP2.1/Screenshot_11.png" width="700"/> 
-    
         <h3>JpaAssociationsApplication</h3>   
         <img src="./github/assets/images/TP2.1/Screenshot_12.png" width="700"/> 
         <img src="./github/assets/images/TP2.1/Screenshot_13.png" width="700"/>
-    
         <h3>application.properties</h3>   
         <img src="./github/assets/images/TP2.1/Screenshot_14.png" width="700"/> 
-    
         <h3>Les tables dans la bdd H2</h3>   
         <h5>- Consultation</h5>
         <img src="./github/assets/images/TP2.1/Screenshot_15.png" width="700"/> 
