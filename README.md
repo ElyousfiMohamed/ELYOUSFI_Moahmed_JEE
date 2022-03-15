@@ -73,6 +73,60 @@ mais ici les instances sont passé a travers des beans</pre>
 </details>
 
 <details>
+    <summary>TP2 - TP2 - JPA (Associations OneToOne, ManyToOne) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20JPA%20(Associations%20%20OneToOne%2C%20ManyToOne)"> [Code source]</a></summary>
+    <br />
+    <p align="center">
+        <h3>Diagramme de classe</h3>
+        <img src="./github/assets/images/TP2.1/Screenshot_19.png" width="700"/>
+    
+        <h3>Les modeles</h3>
+        <h5>- Consultation</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_1.png" width="700"/>
+        <h5>- Medecin</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_2.png" width="700"/>
+        <h5>- Patient</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_3.png" width="700"/>
+        <h5>- RendezVous</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_4.png" width="700"/>
+        <h5>- Enumeration statusRdv</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_5.png" width="700"/>
+    
+        <h3>Repositories</h3>   
+        <h5>- Consultation Repository</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_6.png" width="700"/> 
+        <h5>- Medecin Repository</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_7.png" width="700"/> 
+        <h5>- Patient Repository</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_8.png" width="700"/> 
+        <h5>- RendezVous Repository</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_9.png" width="700"/>
+    
+        <h3>Couche metier (Service)</h3>   
+        <h5>- Interface IHospitalService</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_10.png" width="700"/> 
+        <h5>- Une implémentation de cette interface</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_11.png" width="700"/> 
+    
+        <h3>JpaAssociationsApplication</h3>   
+        <img src="./github/assets/images/TP2.1/Screenshot_12.png" width="700"/> 
+        <img src="./github/assets/images/TP2.1/Screenshot_13.png" width="700"/>
+    
+        <h3>application.properties</h3>   
+        <img src="./github/assets/images/TP2.1/Screenshot_14.png" width="700"/> 
+    
+        <h3>Les tables dans la bdd H2</h3>   
+        <h5>- Consultation</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_15.png" width="700"/> 
+        <h5>- Medecin</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_16.png" width="700"/> 
+        <h5>- Patient</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_17.png" width="700"/> 
+        <h5>- RendezVous</h5>
+        <img src="./github/assets/images/TP2.1/Screenshot_18.png" width="700"/>
+    </p>
+</details>
+
+<details>
     <summary>Mini Projet Framework d'Injection des dépendances <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/Mini%20Projet%20Framework%20d'Injection%20des%20d%C3%A9pendances"> [Code source]</a></summary>
     <br />
     <p align="center">
