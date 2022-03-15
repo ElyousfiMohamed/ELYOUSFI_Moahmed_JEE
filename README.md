@@ -148,11 +148,11 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP2.2/Screenshot_10.png" width="700"/> 
         <h3>Les tables dans la bdd phpMyAdmin</h3>   
         <h5>- role</h5>
-        <img src="./github/assets/images/TP2.2/Screenshot_11.png" width="700"/> 
+        <img src="./github/assets/images/TP2.2/Screenshot_11.png"/> 
         <h5>- user</h5>
-        <img src="./github/assets/images/TP2.2/Screenshot_12.png" width="700"/> 
+        <img src="./github/assets/images/TP2.2/Screenshot_12.png"/> 
         <h5>- user_roles</h5>
-        <img src="./github/assets/images/TP2.2/Screenshot_13.png" width="700"/> 
+        <img src="./github/assets/images/TP2.2/Screenshot_13.png"/> 
     </p>
 </details>
 
