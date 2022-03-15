@@ -73,7 +73,7 @@ mais ici les instances sont passé a travers des beans</pre>
 </details>
 
 <details>
-    <summary>TP2 - TP2 - JPA (Associations OneToOne, ManyToOne) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20JPA%20(Associations%20%20OneToOne%2C%20ManyToOne)"> [Code source]</a></summary>
+    <summary>TP2 - JPA (Associations OneToOne, ManyToOne) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20JPA%20(Associations%20%20OneToOne%2C%20ManyToOne)"> [Code source]</a></summary>
     <br />
     <p align="center">
         <h3>Diagramme de classe</h3>
@@ -117,6 +117,42 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP2.1/Screenshot_17.png" width="700"/> 
         <h5>- RendezVous</h5>
         <img src="./github/assets/images/TP2.1/Screenshot_18.png" width="700"/>
+    </p>
+</details>
+
+<details>
+    <summary>TP2 - JPA (Association ManyToMany) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20JPA%20(Association%20ManyToMany)"> [Code source]</a></summary>
+    <br />
+    <p align="center">
+        <h3>Diagramme de classe</h3>
+        <img src="./github/assets/images/TP2.2/Screenshot_1.png" width="700"/>
+        <h3>Les modeles</h3>
+        <h5>- Role</h5>
+        <img src="./github/assets/images/TP2.2/Screenshot_2.png" width="700"/>
+        <h5>- User</h5>
+        <img src="./github/assets/images/TP2.2/Screenshot_3.png" width="700"/>
+        <h3>Repositories</h3>   
+        <h5>- Role Repository</h5>
+        <img src="./github/assets/images/TP2.2/Screenshot_4.png" width="700"/> 
+        <h5>- User Repository</h5>
+        <img src="./github/assets/images/TP2.2/Screenshot_5.png" width="700"/> 
+        <h3>Couche metier (Service)</h3>   
+        <h5>- Interface UserService</h5>
+        <img src="./github/assets/images/TP2.2/Screenshot_6.png" width="700"/> 
+        <h5>- Une implémentation de cette interface</h5>
+        <img src="./github/assets/images/TP2.2/Screenshot_7.png" width="700"/> 
+        <h3>ManyToManyDemoApp (main)</h3>   
+        <img src="./github/assets/images/TP2.2/Screenshot_8.png" width="700"/> 
+        <img src="./github/assets/images/TP2.2/Screenshot_9.png" width="700"/>
+        <h3>application.properties</h3>   
+        <img src="./github/assets/images/TP2.2/Screenshot_10.png" width="700"/> 
+        <h3>Les tables dans la bdd phpMyAdmin</h3>   
+        <h5>- role</h5>
+        <img src="./github/assets/images/TP2.2/Screenshot_11.png" width="700"/> 
+        <h5>- user</h5>
+        <img src="./github/assets/images/TP2.2/Screenshot_12.png" width="700"/> 
+        <h5>- user_roles</h5>
+        <img src="./github/assets/images/TP2.2/Screenshot_13.png" width="700"/> 
     </p>
 </details>
 
