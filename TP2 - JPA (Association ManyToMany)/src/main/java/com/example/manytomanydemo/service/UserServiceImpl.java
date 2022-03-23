@@ -5,7 +5,6 @@ import com.example.manytomanydemo.entities.User;
 import com.example.manytomanydemo.repositories.RoleRepository;
 import com.example.manytomanydemo.repositories.UserRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
