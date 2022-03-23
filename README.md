@@ -208,6 +208,10 @@ mais ici les instances sont passé a travers des beans</pre>
         <h5>- Affichage</h5>
         <img src="./github/assets/images/TP3/Screenshot_21.png"/> 
         <img src="./github/assets/images/TP3/Screenshot_22.png"/> 
+        <h3>Ajout</h3>
+        ...
+        <h3>Modification</h3>
+        ...
     </p>
 </details>
 
