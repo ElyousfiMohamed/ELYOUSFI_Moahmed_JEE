@@ -16,13 +16,26 @@ import java.util.List;
 @AllArgsConstructor
 public class PatientController {
     private PatientRepository patientRepository;
+    @GetMapping(path = "/")
+    public String home() {
+        return "redirect:/index";
+    }
+
     @GetMapping(path = "/index")
     public String patients(Model model, @RequestParam(name = "page",defaultValue = "0") int page,
-                                        @RequestParam(name = "size",defaultValue = "5")int size) {
-        Page<Patient> patients = patientRepository.findAll(PageRequest.of(page, size) );
+                                        @RequestParam(name = "size",defaultValue = "5")int size,
+                                        @RequestParam(name = "keyword",defaultValue = "")String keyword) {
+        Page<Patient> patients = patientRepository.findByNomContains(keyword,PageRequest.of(page, size));
         model.addAttribute("list",patients.getContent());
         model.addAttribute("nbrPages",new int[patients.getTotalPages()]);
         model.addAttribute("pagecourant",page);
+        model.addAttribute("keyword",keyword);
         return "patients";
+    }
+
+    @GetMapping(path = "/delete")
+    public String delete(Long id) {
+        patientRepository.deleteById(id);
+        return "redirect:/index";
     }
 }

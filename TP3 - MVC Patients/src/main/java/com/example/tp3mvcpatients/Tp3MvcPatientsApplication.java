@@ -19,13 +19,12 @@ public class Tp3MvcPatientsApplication {
     @Bean
     CommandLineRunner commandLineRunner(PatientRepository patientRepository){
         return  args -> {
-            for (int i = 0;i<200;i++) {
+            for (int i = 0;i<20;i++) {
                 patientRepository.save(new Patient(null,"Hassan",new Date(),false,12));
                 patientRepository.save(new Patient(null,"Mohamed",new Date(),true,35));
                 patientRepository.save(new Patient(null,"Oussama",new Date(),false,98));
                 patientRepository.save(new Patient(null,"Fatima",new Date(),true,14));
             }
-
 
             patientRepository.findAll().forEach(patient -> System.out.println(patient));
         };
