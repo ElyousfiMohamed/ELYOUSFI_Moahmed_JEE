@@ -163,6 +163,57 @@ mais ici les instances sont passé a travers des beans</pre>
 ---
 
 <details>
+    <summary>TP3 - MVC <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP3%20-%20MVC%20Patients"> [Code source]</a></summary><br />
+    <p align="center">
+        <h3>Affichage des patients</h3>
+        <h5>- Entity Patient</h5>
+        <img src="./github/assets/images/TP3/Screenshot_1.png" width="700"/>
+        <h5>- Patient Repository</h5>
+        <img src="./github/assets/images/TP3/Screenshot_2.png" width="700"/>
+        <h5>- Patient Controller</h5>
+        <img src="./github/assets/images/TP3/Screenshot_3.png" width="700"/>
+        <h5>- Application</h5>   
+        <img src="./github/assets/images/TP3/Screenshot_4.png" width="700"/> 
+        <h5>- Affichage des patients dans une template Thymeleaf</h5>
+        <img src="./github/assets/images/TP3/Screenshot_5.png" width="700"/> 
+        <img src="./github/assets/images/TP3/Screenshot_6.png"/> 
+        <h3>Pagination</h3>
+        <h5>- Génération des données pour faire la pagination</h5>
+        <img src="./github/assets/images/TP3/Screenshot_7.png" width="700"/> 
+        <h5>- barre de pagination</h5>   
+        <img src="./github/assets/images/TP3/Screenshot_8.png" width="700"/> 
+        <h5>- L'ajout des params 'size' et 'page' dans le Controlleur</h5>
+        <img src="./github/assets/images/TP3/Screenshot_9.png" width="700"/>
+        <h5>- Affichage</h5>   
+        <img src="./github/assets/images/TP3/Screenshot_10.png"/> 
+        <img src="./github/assets/images/TP3/Screenshot_11.png"/> 
+        <h3>Recherche</h3>
+        <h5>- Patient Repository (ajout de "findByNomContains a keyword")</h5>
+        <img src="./github/assets/images/TP3/Screenshot_12.png" width="700"/> 
+        <h5>- Patient Controller (ajout de param keyword)</h5>   
+        <img src="./github/assets/images/TP3/Screenshot_13.png" width="700"/> 
+        <h5>- Ajout du formulaire de recherche</h5>
+        <img src="./github/assets/images/TP3/Screenshot_14.png" width="700"/>
+        <h5>- L'ajout du mot clé dans le lien, pour naviger entre les pages aprés la recherche par un mot clé</h5>   
+        <img src="./github/assets/images/TP3/Screenshot_15.png" width="700"/> 
+        <h5>- Affichage</h5
+        <img src="./github/assets/images/TP3/Screenshot_16.png"/> 
+        <img src="./github/assets/images/TP3/Screenshot_17.png"/> 
+        <h3>Suppression</h3>
+        <h5>- Ajout de lien de supression (/delete?id) dans la template</h5>
+        <img src="./github/assets/images/TP3/Screenshot_18.png" width="700"/> 
+        <h5>- Ajout des paths "/" et "/delete" ("/" pour la redirection)</h5>   
+        <img src="./github/assets/images/TP3/Screenshot_19.png" width="700"/> 
+        <img src="./github/assets/images/TP3/Screenshot_20.png" width="700"/> 
+        <h5>- Affichage</h5>
+        <img src="./github/assets/images/TP3/Screenshot_21.png"/> 
+        <img src="./github/assets/images/TP3/Screenshot_22.png"/> 
+    </p>
+</details>
+
+---
+
+<details>
     <summary>Mini Projet Framework d'Injection des dépendances <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/Mini%20Projet%20Framework%20d'Injection%20des%20d%C3%A9pendances"> [Code source]</a></summary>
     <br />
     <p align="center">
