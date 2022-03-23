@@ -38,4 +38,10 @@ public class PatientController {
         patientRepository.deleteById(id);
         return "redirect:/index";
     }
+
+    @GetMapping(path = "/new")
+    public String nouveau(Patient p) {
+        patientRepository.save(p);
+        return "redirect:/index";
+    }
 }
