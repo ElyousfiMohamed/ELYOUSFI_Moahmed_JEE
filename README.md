@@ -205,7 +205,7 @@ mais ici les instances sont passé a travers des beans</pre>
         <h5>- Ajout des paths "/" et "/delete" ("/" pour la redirection)</h5>   
         <img src="./github/assets/images/TP3/Screenshot_19.png" width="700"/> 
         <img src="./github/assets/images/TP3/Screenshot_20.png" width="700"/> 
-        <h5>- Affichage</h5
+        <h5>- Affichage</h5>
         <img src="./github/assets/images/TP3/Screenshot_21.png"/> 
         <img src="./github/assets/images/TP3/Screenshot_22.png"/> 
     </p>
