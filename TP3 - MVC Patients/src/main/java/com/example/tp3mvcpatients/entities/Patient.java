@@ -4,8 +4,10 @@ package com.example.tp3mvcpatients.entities;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
@@ -17,8 +19,8 @@ public class Patient {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nom;
-    @Temporal(TemporalType.DATE)
-    private Date dateNaissance;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private String dateNaissance;
     private boolean malade;
     private int score;
 }
