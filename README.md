@@ -209,7 +209,16 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP3/Screenshot_21.png"/> 
         <img src="./github/assets/images/TP3/Screenshot_22.png"/> 
         <h3>Ajout</h3>
-        ...
+        <h5>- Ajout des paths "/new" et "/create" dans le controlleur</h5>
+        <img src="./github/assets/images/TP3/Screenshot_23.png" width="700"/> 
+        <h5>- Ajout d'un fragement navbar pour l'insérer dans chacune des templates (index/new/update)</h5>   
+        <img src="./github/assets/images/TP3/Screenshot_24.png" width="700"/> 
+        <img src="./github/assets/images/TP3/Screenshot_25.png" width="700"/> 
+        <h5>- Formulaire de saisie des données de patient</h5>
+        <img src="./github/assets/images/TP3/Screenshot_26.png"/> 
+        <h5>- Affichage</h5>
+        <img src="./github/assets/images/TP3/Screenshot_28.png"/> 
+        <img src="./github/assets/images/TP3/Screenshot_29.png"/> 
         <h3>Modification</h3>
         ...
     </p>
