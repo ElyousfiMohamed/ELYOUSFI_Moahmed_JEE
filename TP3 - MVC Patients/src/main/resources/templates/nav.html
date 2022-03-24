@@ -19,9 +19,6 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" th:href="@{new}">Ajouter Patient</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" th:href="@{update}">Modifier Patient</a>
-                </li>
             </ul>
             <form class="d-flex" method="get" th:action="@{index}">
                 <input type="search" aria-label="Search" placeholder="keyword" class="form-control me-2" name="keyword" th:value="${keyword}">
