@@ -220,7 +220,16 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP3/Screenshot_28.png"/> 
         <img src="./github/assets/images/TP3/Screenshot_29.png"/> 
         <h3>Modification</h3>
-        ...
+        <h5>- Ajout des methodes "findPatientById" et "updatePatient" dans Patient Repository</h5>
+        <img src="./github/assets/images/TP3/Screenshot_30.png" width="700"/> 
+        <h5>- Ajout des paths "/update" et "/maj" dans le controlleur</h5>   
+        <img src="./github/assets/images/TP3/Screenshot_31.png" width="700"/> 
+        <h5>- Formulaire de modification des données de patient</h5>
+        <img src="./github/assets/images/TP3/Screenshot_32.png" width="700"/> 
+        <h5>- Affichage</h5>
+        <img src="./github/assets/images/TP3/Screenshot_33.png"/> 
+        <img src="./github/assets/images/TP3/Screenshot_34.png"/>
+        <img src="./github/assets/images/TP3/Screenshot_35.png"/> 
     </p>
 </details>
 
