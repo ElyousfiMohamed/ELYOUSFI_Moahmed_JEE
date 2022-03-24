@@ -200,7 +200,7 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP3/Screenshot_16.png"/> 
         <img src="./github/assets/images/TP3/Screenshot_17.png"/> 
         <h3>Suppression</h3>
-        <h5>- Ajout de lien de supression (/delete?id) dans la template</h5>
+        <h5>- Ajout de lien de suppression (/delete?id) dans la template</h5>
         <img src="./github/assets/images/TP3/Screenshot_18.png" width="700"/> 
         <h5>- Ajout des paths "/" et "/delete" ("/" pour la redirection)</h5>   
         <img src="./github/assets/images/TP3/Screenshot_19.png" width="700"/> 
