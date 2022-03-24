@@ -196,7 +196,7 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP3/Screenshot_14.png" width="700"/>
         <h5>- L'ajout du mot clé dans le lien, pour naviger entre les pages aprés la recherche par un mot clé</h5>   
         <img src="./github/assets/images/TP3/Screenshot_15.png" width="700"/> 
-        <h5>- Affichage</h5
+        <h5>- Affichage</h5>
         <img src="./github/assets/images/TP3/Screenshot_16.png"/> 
         <img src="./github/assets/images/TP3/Screenshot_17.png"/> 
         <h3>Suppression</h3>
@@ -208,6 +208,10 @@ mais ici les instances sont passé a travers des beans</pre>
         <h5>- Affichage</h5>
         <img src="./github/assets/images/TP3/Screenshot_21.png"/> 
         <img src="./github/assets/images/TP3/Screenshot_22.png"/> 
+        <h3>Ajout</h3>
+        ...
+        <h3>Modification</h3>
+        ...
     </p>
 </details>
 
