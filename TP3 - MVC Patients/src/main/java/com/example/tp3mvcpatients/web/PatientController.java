@@ -65,5 +65,4 @@ public class PatientController {
         model.addAttribute("patient",p);
         return "modification";
     }
-
 }
