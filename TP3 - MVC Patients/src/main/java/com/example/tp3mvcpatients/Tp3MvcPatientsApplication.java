@@ -7,6 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.Date;
 
@@ -21,10 +22,10 @@ public class Tp3MvcPatientsApplication {
     CommandLineRunner commandLineRunner(PatientRepository patientRepository){
         return  args -> {
             for (int i = 0;i<20;i++) {
-                patientRepository.save(new Patient(null,"Hassan", LocalDate.now().toString(),false,12));
-                patientRepository.save(new Patient(null,"Mohamed",LocalDate.now().toString(),true,35));
-                patientRepository.save(new Patient(null,"Oussama",LocalDate.now().toString(),false,98));
-                patientRepository.save(new Patient(null,"Fatima",LocalDate.now().toString(),true,14));
+                patientRepository.save(new Patient(null,"Hassan", new Date(),false,12));
+                patientRepository.save(new Patient(null,"Mohamed",new Date(),true,35));
+                patientRepository.save(new Patient(null,"Oussama",new Date(),false,98));
+                patientRepository.save(new Patient(null,"Fatima",new Date(),true,14));
             }
 
             //patientRepository.findAll().forEach(patient -> System.out.println(patient));

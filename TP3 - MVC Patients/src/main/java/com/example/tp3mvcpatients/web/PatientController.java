@@ -7,9 +7,13 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.validation.Valid;
 import java.util.Optional;
 
 @Controller
@@ -45,52 +49,21 @@ public class PatientController {
 
     @GetMapping(path = "/new")
     public String nouveau(Model model) {
+        model.addAttribute("patient",new Patient());
         return "ajout";
     }
 
-    @GetMapping(path = "/create")
-    public String nouveau(Model model
-            , @RequestParam(name = "nom", defaultValue = "") String nom,
-                          @RequestParam(name = "ddn", defaultValue = "") String ddn,
-                          @RequestParam(name = "malade", defaultValue = "") String malade,
-                          @RequestParam(name = "score", defaultValue = "0") int score) {
-        Patient p = new Patient();
-        p.setNom(nom);
-        p.setDateNaissance(ddn);
-        if (malade.equals("Non"))
-            p.setMalade(false);
-        else
-            p.setMalade(true);
-        p.setScore(score);
+    @PostMapping(path = "/create")
+    public String nouveau(Model model, @Valid Patient p, BindingResult bindingResult) {
         patientRepository.save(p);
-        return "redirect:/index";
-    }
-    @GetMapping(path = "/maj")
-    public String maj(Model model,@RequestParam(name = "id",defaultValue = "")Long id
-            ,@RequestParam(name = "nom",defaultValue = "")String nom,
-                          @RequestParam(name = "ddn",defaultValue = "") String ddn,
-                          @RequestParam(name = "malade",defaultValue = "")String malade,
-                          @RequestParam(name = "score",defaultValue = "0")int score){
-        Patient p = new Patient();
-        p.setNom(nom);
-        p.setDateNaissance(ddn);
-        if(malade.equals("Non"))
-            p.setMalade(false);
-        else
-            p.setMalade(true);
-        p.setScore(score);
-        patientRepository.updatePatient(id,p.getNom(),p.getDateNaissance(),p.isMalade(),p.getScore());
         return "redirect:/index";
     }
 
     @GetMapping(path = "/update")
-    public String modifier(Model model,Long id) {
+    public String update(Model model, Long id) {
         Patient p = patientRepository.findPatientById(id);
-        model.addAttribute("id",p.getId());
-        model.addAttribute("nom",p.getNom());
-        model.addAttribute("date",p.getDateNaissance());
-        model.addAttribute("malade",p.isMalade());
-        model.addAttribute("score",p.getScore());
+        model.addAttribute("patient",p);
         return "modification";
     }
+
 }
