@@ -208,7 +208,7 @@ mais ici les instances sont passé a travers des beans</pre>
         <h5>- Affichage</h5>
         <img src="./github/assets/images/TP3/Screenshot_21.png"/> 
         <img src="./github/assets/images/TP3/Screenshot_22.png"/> 
-        <h3>Ajout</h3>
+        <!-- <h3>Ajout</h3>
         <h5>- Ajout des paths "/new" et "/create" dans le controlleur</h5>
         <img src="./github/assets/images/TP3/Screenshot_23.png" width="700"/> 
         <h5>- Ajout d'un fragement navbar pour l'insérer dans chacune des templates (index/new/update)</h5>   
@@ -229,7 +229,7 @@ mais ici les instances sont passé a travers des beans</pre>
         <h5>- Affichage</h5>
         <img src="./github/assets/images/TP3/Screenshot_33.png"/> 
         <img src="./github/assets/images/TP3/Screenshot_34.png"/>
-        <img src="./github/assets/images/TP3/Screenshot_35.png"/> 
+        <img src="./github/assets/images/TP3/Screenshot_35.png"/> -->
     </p>
 </details>
 
