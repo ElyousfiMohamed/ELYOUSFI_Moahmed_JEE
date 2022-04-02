@@ -16,14 +16,9 @@
                     <input type="date" class="form-control" name="ddn" id="ddn" required>
                 </div>
                 <div class="mb-3">
-                    Etes-vous malade ?
                     <div>
-                        <input type="radio" id="oui" name="malade" value="Oui" th:checked="${patient.malade}" required>
-                        <label for="oui">Oui</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="non" name="malade" value="Non" th:checked="${patient.malade}" required>
-                        <label for="non">Non</label>
+                        <input type="checkbox" id="malade" name="malade" th:checked="${patient.malade}" >
+                        <label for="malade">Etes-vous malade ?</label>
                     </div>
                 </div>
                 <div class="mb-3">
