@@ -3,13 +3,58 @@
 <h2 align="center"><💻 Compte Rendu des Travaux Pratiques JEE💻/></h2>
 
 <details>
-    <summary>TP1 - Injection des dépendances par instanciation Statique/Dynamique/Framework<a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP1%20-%20Semaine%201%20et%202%20(Injection%20de%20dependances)"> [Code source]</a></summary><br>
+    <summary>Mini Projet Framework d'Injection des dépendances (cliquez  🖱) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/Mini%20Projet%20Framework%20d'Injection%20des%20d%C3%A9pendances"> [Code source]</a></summary>
+    <br />
+    <p align="center">
+        <!-- <h3>Conception</h3>
+        Coming soon... -->
+        <h3>Realisation</h3>
+        <h4>1 - Avec XML</h4>
+        <h4>Entity Obj : c'est l'objet qu'on va récuperer depuis le fichier XML</h4>
+        <img src="github/assets/images/Framework IOC/Screenshot_1.png" width="1000"/>
+        <h4>Entity Objs : qui contient une list des objets | cette classe est mappé avec le fichier XML (XmlRootElement / XmlElement)</h4>
+        <img src="github/assets/images/Framework IOC/Screenshot_2.png" width="1000"/>
+        <h4>Entity Property : qui va etre utilisé pour représenter soit le nom de setter (cas injection par setter) soit le nom d'attribut (cas injection               direct)</h4>
+        <img src="github/assets/images/Framework IOC/Screenshot_3.png" width="1000"/>
+        <h4>Fichier XML</h4>
+        <img src="github/assets/images/Framework IOC/Screenshot_4.png" width="1000"/>
+        <h5> 1.1 - Setter</h5>
+        Injection par Setter en utilisant JAXB pour récuperer les objets depuis le fichier XML
+        <img src="github/assets/images/Framework IOC/Screenshot_5.png" width="1000"/>
+    Simulation en utilisant l'exemple de [<a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP1%20-%20Semaine%201%20et%202%20(Injection%20de%20dependances)">TP1</a>]<br>
+        <img src="github/assets/images/Framework IOC/Screenshot_6.png" width="1000"/>
+        <img src="github/assets/images/Framework IOC/Screenshot_7.png" width="1000"/><br>
+        Appel à l'"injector" :<br>
+        <img src="github/assets/images/Framework IOC/Screenshot_8.png" width="1000"/><br>
+        Résultat : <br>
+        <img src="github/assets/images/Framework IOC/Screenshot_9.png" width="1000"/>
+        <h5> 1.2 - Constructeur</h5>
+        <img src="github/assets/images/Framework IOC/Screenshot_10.png" width="1000"/><br>
+        Changement du nom de classe qu'on veut injecter son objet : <br>
+        <img src="github/assets/images/Framework IOC/Screenshot_11.png" width="1000"/><br>
+        Résultat : <br>
+        <img src="github/assets/images/Framework IOC/Screenshot_12.png" width="1000"/>
+        <h5> 1.3 - Accés direct</h5>
+        <img src="github/assets/images/Framework IOC/Screenshot_13.png" width="1000"/><br>
+        Insertion du nom de l'attribut dans le fichier XML : <br>
+        <img src="github/assets/images/Framework IOC/Screenshot_14.png" width="1000"/><br>
+        Résultat : <br>
+        <img src="github/assets/images/Framework IOC/Screenshot_15.png" width="1000"/>
+        <h4>2 - Avec les Annotations</h4>
+        Coming soon...
+    </p>
+</details>
+
+---
+
+<details>
+    <summary>TP1 - Injection des dépendances (cliquez  🖱) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP1%20-%20Semaine%201%20et%202%20(Injection%20de%20dependances)"> [Code source]</a></summary><br>
     <p>
         On considère le schéma suivant ou les classes sont liées par un couplage faible<br>
         <center><img src="./github/assets/images/TP1/Screenshot_1.png"/></center>
         <pre>Implémentation en java :
 - Interface IDao et ses implémentations :</pre>
-        <img src="./github/assets/images/TP1/Screenshot_3.png" width="700" />
+        <img src="./github/assets/images/TP1/Screenshot_3.png" width="700"/>
         <img src="./github/assets/images/TP1/Screenshot_2.png" width="700"/>
         <img src="./github/assets/images/TP1/Screenshot_6.png" width="700"/>
         <pre>- Interface IMetier et son implémentation :</pre>
@@ -52,7 +97,7 @@ mais ici les instances sont passé a travers des beans</pre>
 ---
 
 <details>
-    <summary>TP2 - Java Persistence API (JPA) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20Java%20Persistence%20API%20(JPA)"> [Code source]</a></summary>
+    <summary>TP2 - Java Persistence API (JPA) (cliquez  🖱) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20Java%20Persistence%20API%20(JPA)"> [Code source]</a></summary>
     <br />
     <p align="center">
         <h3>Spring Data</h3> 
@@ -75,7 +120,7 @@ mais ici les instances sont passé a travers des beans</pre>
 ---
 
 <details>
-    <summary>TP2 - JPA (Associations OneToOne, ManyToOne) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20JPA%20(Associations%20%20OneToOne%2C%20ManyToOne)"> [Code source]</a></summary>
+    <summary>TP2 - JPA (Associations OneToOne, ManyToOne) (cliquez  🖱) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20JPA%20(Associations%20%20OneToOne%2C%20ManyToOne)"> [Code source]</a></summary>
     <br />
     <p align="center">
         <h3>Diagramme de classe</h3>
@@ -125,7 +170,7 @@ mais ici les instances sont passé a travers des beans</pre>
 ---
 
 <details>
-    <summary>TP2 - JPA (Association ManyToMany) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20JPA%20(Association%20ManyToMany)"> [Code source]</a></summary>
+    <summary>TP2 - JPA (Association ManyToMany) (cliquez  🖱) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP2%20-%20JPA%20(Association%20ManyToMany)"> [Code source]</a></summary>
     <br />
     <p align="center">
         <h3>Diagramme de classe</h3>
@@ -163,7 +208,7 @@ mais ici les instances sont passé a travers des beans</pre>
 ---
 
 <details>
-    <summary>TP3 - MVC <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP3%20-%20MVC%20Patients"> [Code source]</a></summary><br />
+    <summary>TP3 - Spring MVC (cliquez  🖱) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP3%20-%20MVC%20Patients"> [Code source]</a></summary><br />
     <p align="center">
         <h3>Affichage des patients</h3>
         <h5>- Entity Patient</h5>
@@ -241,32 +286,6 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP3/Screenshot_38.png" width="700"/> 
         <img src="./github/assets/images/TP3/Screenshot_39.png" width="700"/>
         <img src="./github/assets/images/TP3/Screenshot_40.png"/>
-    </p>
-</details>
-
----
-
-<details>
-    <summary>Mini Projet Framework d'Injection des dépendances <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/Mini%20Projet%20Framework%20d'Injection%20des%20d%C3%A9pendances"> [Code source]</a></summary>
-    <br />
-    <p align="center">
-        <!-- <h3>Conception</h3>
-        Coming soon... -->
-        <h3>Realisation</h3>
-        <h4>1 - Avec XML</h4>
-        <h5> 1.1 - Setter</h5>
-        Coming soon...
-        <h5> 1.2 - Constructeur</h5>
-        Coming soon...  
-        <h5> 1.3 - Accés direct</h5>
-        Coming soon...
-        <h4>2 - Avec les Annotations</h4>
-        <h5> 2.1 - Setter</h5>
-        Coming soon...
-        <h5> 2.2 - Constructeur</h5>
-        Coming soon...  
-        <h5> 2.3 - Accés direct</h5>
-        Coming soon...
     </p>
 </details>
 
