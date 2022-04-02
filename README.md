@@ -228,6 +228,16 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP3/Screenshot_33.png"/> 
         <img src="./github/assets/images/TP3/Screenshot_34.png"/>
         <img src="./github/assets/images/TP3/Screenshot_35.png"/>
+        <h3>Spring Security - inMemoryAuthentication</h3>
+        <h5>- Ajout user1 et admin</h5>   
+        <img src="./github/assets/images/TP3/Screenshot_36.png" width="700"/>
+        <h5>- Les droits d'acces et login form</h5>
+        <img src="./github/assets/images/TP3/Screenshot_37.png" width="700"/> 
+        <img src="./github/assets/images/TP3/Screenshot_41.png" width="700"/>
+        <h5>- path access denied "/403" </h5>
+        <img src="./github/assets/images/TP3/Screenshot_38.png" width="700"/> 
+        <img src="./github/assets/images/TP3/Screenshot_39.png" width="700"/>
+        <img src="./github/assets/images/TP3/Screenshot_40.png"/>
     </p>
 </details>
 
