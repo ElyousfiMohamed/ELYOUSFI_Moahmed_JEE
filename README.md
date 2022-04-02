@@ -250,8 +250,8 @@ mais ici les instances sont passé a travers des beans</pre>
     <summary>Mini Projet Framework d'Injection des dépendances <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/Mini%20Projet%20Framework%20d'Injection%20des%20d%C3%A9pendances"> [Code source]</a></summary>
     <br />
     <p align="center">
-        <h3>Conception</h3>
-        Coming soon...
+        <!-- <h3>Conception</h3>
+        Coming soon... -->
         <h3>Realisation</h3>
         <h4>1 - Avec XML</h4>
         <h5> 1.1 - Setter</h5>
