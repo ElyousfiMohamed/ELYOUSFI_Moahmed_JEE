@@ -215,7 +215,7 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP3/Screenshot_24.png" width="700"/> 
         <img src="./github/assets/images/TP3/Screenshot_25.png" width="700"/> 
         <h5>- Formulaire de saisie des données de patient</h5>
-        <img src="./github/assets/images/TP3/Screenshot_26.png"/> 
+        <img src="./github/assets/images/TP3/Screenshot_26.png" width="700" height="450"/> 
         <h5>- Affichage</h5>
         <img src="./github/assets/images/TP3/Screenshot_28.png"/> 
         <img src="./github/assets/images/TP3/Screenshot_29.png"/> 
@@ -234,6 +234,9 @@ mais ici les instances sont passé a travers des beans</pre>
         <h5>- Les droits d'acces et login form</h5>
         <img src="./github/assets/images/TP3/Screenshot_37.png" width="700"/> 
         <img src="./github/assets/images/TP3/Screenshot_41.png" width="700"/>
+        <img src="./github/assets/images/TP3/Screenshot_44.png" width="700"/>
+        <img src="./github/assets/images/TP3/Screenshot_42.png" width="700"/>
+        <img src="./github/assets/images/TP3/Screenshot_43.png" width="700"/>
         <h5>- path access denied "/403" </h5>
         <img src="./github/assets/images/TP3/Screenshot_38.png" width="700"/> 
         <img src="./github/assets/images/TP3/Screenshot_39.png" width="700"/>
