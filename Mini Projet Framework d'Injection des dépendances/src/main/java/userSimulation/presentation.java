@@ -6,7 +6,7 @@ import userSimulation.metier.IMetier;
 
 public class presentation {
     public static void main(String[] args) throws Exception {
-        Injector context = new Injector("objects.xml");
+        Injector context = new Injector("objs.xml");
         IMetier metier= (IMetier) context.getObject();
         System.out.println(metier.calcul());
     }

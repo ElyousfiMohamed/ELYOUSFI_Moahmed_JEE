@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objs xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="objs.xsd">
+        <obj objectName="da" className="userSimulation.dao.DaoImpl"/>
+        <obj objectName="mt" className="userSimulation.metier.MetierImpl">
+            <property nom="dao" ref="da"/>
+        </obj>
+</objs>
+

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<objects xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="objects.xsd">
-        <object objectName="da" className="userSimulation.ext.DaoImplCapt"/>
-        <object objectName="mt" className="userSimulation.metier.MetierImpl">
-            <property nom="dao" ref="da"/>
-        </object>
-</objects>

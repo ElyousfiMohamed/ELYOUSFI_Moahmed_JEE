@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ac5e197-090d-4bca-8c91-16974644606f" name="Changes" comment="TP1 - Injection de dependances Statique/Dynamique/Framework">
-      <change beforePath="$PROJECT_DIR$/TP2 - JPA (Association ManyToMany)/src/main/java/com/example/manytomanydemo/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2 - JPA (Association ManyToMany)/src/main/java/com/example/manytomanydemo/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +11,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,7 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mini Projet Framework d'Injection des dépendances" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,6 +63,9 @@
       <workItem from="1647376055250" duration="8000" />
       <workItem from="1647376078528" duration="84000" />
       <workItem from="1647988628240" duration="142000" />
+      <workItem from="1648904576773" duration="17000" />
+      <workItem from="1648904629732" duration="196000" />
+      <workItem from="1648904828885" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
       <created>1645467778532</created>
