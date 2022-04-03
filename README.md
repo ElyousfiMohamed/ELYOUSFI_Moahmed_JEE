@@ -7,10 +7,12 @@
     <br />
     <p align="center">
         <!-- <h3>Conception</h3>
-        Coming soon... -->
-        <h3>Realisation</h3>
-        <h4>1 - Avec XML</h4>
-        <h4>Entity Obj : c'est l'objet qu'on va récuperer depuis le fichier XML</h4>
+        Coming soon... 
+        <h3>Realisation</h3>-->
+        <details>
+    <summary>1 - Avec XML</summary><br>
+    <p>
+	<h4>Entity Obj : c'est l'objet qu'on va récuperer depuis le fichier XML</h4>
         <img src="github/assets/images/Framework IOC/Screenshot_1.png" width="1000"/>
         <h4>Entity Objs : qui contient une list des objets | cette classe est mappé avec le fichier XML (XmlRootElement / XmlElement)</h4>
         <img src="github/assets/images/Framework IOC/Screenshot_2.png" width="1000"/>
@@ -40,8 +42,45 @@
         <img src="github/assets/images/Framework IOC/Screenshot_14.png" width="1000"/><br>
         Résultat : <br>
         <img src="github/assets/images/Framework IOC/Screenshot_15.png" width="1000"/>
-        <h4>2 - Avec les Annotations</h4>
-        Coming soon...
+    </p>
+</details>
+<details>
+    <summary>2 - Avec ANNOTATIONS</summary><br>
+    <p>
+	<h4>Création des annotations - Autowired</h4>
+        <img src="github/assets/images/Framework IOC/Screenshot_16.png" width="1000"/>
+        <h4>Création des annotations - Component</h4>
+        <img src="github/assets/images/Framework IOC/Screenshot_17.png" width="1000"/>
+        <h4>Classe Injector : scan sur les classes du package donné en parametres (burningwave)</h4>
+        <img src="github/assets/images/Framework IOC/Screenshot_18.png" width="1000"/>
+        <h4>Variables necessaires</h4>
+        <img src="github/assets/images/Framework IOC/Screenshot_19.png" width="1000"/>
+        <h4>Scan sur les annotations</h4>
+        L'idée c'est de faire un scan sur tous les classes qu'on récuperer par "burningwave" pour localiser les annotations.<br>
+        Si il est utilisé dans une méthode donc on va stocker cette méthode et c'est donc l'injection par "setter".<br>
+        Si il est utilisé dans un constructeur donc on va stocker cet constructeur et c'est donc l'injection par "constructeur".<br>
+        Si il est utilisé dans un field (attribut) donc on va stocker cet attribut et c'est donc l'injection par "accés direct".<br>
+        <img src="github/assets/images/Framework IOC/Screenshot_20.png" width="1000"/>
+        <h4>Objet concerner par l'injection</h4>
+        Déclaration de l'objet concerner par l'injection comme un attribut de la classe Injector2 pour le retourner au utilisateur aprés : 
+        <img src="github/assets/images/Framework IOC/Screenshot_21.png" width="1000"/>
+        <h4>Injection</h4>
+        <img src="github/assets/images/Framework IOC/Screenshot_22.png" width="1000"/>
+        Simulation en utilisant l'exemple de [<a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP1%20-%20Semaine%201%20et%202%20(Injection%20de%20dependances)">TP1</a>]<br>
+        <img src="github/assets/images/Framework IOC/Screenshot_6.png" width="1000"/>
+        <img src="github/assets/images/Framework IOC/Screenshot_24.png" width="1000"/>
+        <h5> 1.1 - Setter</h5>
+        <img src="github/assets/images/Framework IOC/Screenshot_23.png" width="1000"/>
+        Résultat : <br>
+        <img src="github/assets/images/Framework IOC/Screenshot_25.png" width="1000"/>
+        <h5> 1.2 - Constructeur</h5>
+        Résultat : <br>
+        <img src="github/assets/images/Framework IOC/Screenshot_26.png" width="1000"/>
+        <h5> 1.3 - Accés direct</h5>
+        Résultat : <br>
+        <img src="github/assets/images/Framework IOC/Screenshot_27.png" width="1000"/>
+    </p>
+</details>
     </p>
 </details>
 
