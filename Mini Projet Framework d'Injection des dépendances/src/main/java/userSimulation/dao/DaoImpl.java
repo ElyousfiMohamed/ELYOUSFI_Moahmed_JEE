@@ -1,5 +1,8 @@
 package userSimulation.dao;
 
+import annotations.Component;
+
+@Component
 public class DaoImpl implements IDao {
 
     @Override

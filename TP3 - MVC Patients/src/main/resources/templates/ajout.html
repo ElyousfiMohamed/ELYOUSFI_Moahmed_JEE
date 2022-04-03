@@ -5,26 +5,29 @@
 <body>
     <div layout:fragment="cardBody">
         <div class="col-md-6 offset-3">
-            <form method="post" th:action="@{create}">
+            <form method="post" th:action="@{/admin/create}">
                 <div class="mb-3">
                     <label for="nom" class="form-label">Nom</label>
                     <input type="text" class="form-control" id="nom" name="nom" th:value="${patient.nom}" required>
-                    <span th:errors="${patient.nom}"></span>
+                    <span class="text-danger" th:errors="${patient.nom}"></span>
                 </div>
                 <div class="mb-3">
                     <label for="ddn" class="form-label">Date de naissance</label>
                     <input type="date" class="form-control" name="ddn" id="ddn" required>
+                    <span class="text-danger" th:errors="${patient.ddn}"></span>
                 </div>
                 <div class="mb-3">
                     <div>
                         <input type="checkbox" id="malade" name="malade" th:checked="${patient.malade}" >
                         <label for="malade">Etes-vous malade ?</label>
+                        <span class="text-danger" th:errors="${patient.malade}"></span>
+
                     </div>
                 </div>
                 <div class="mb-3">
                     <label for="score" class="form-label">Score</label>
                     <input type="number" class="form-control" id="score" th:value="${patient.score}" name="score">
-                    <span th:errors="${patient.score}"></span>
+                    <span class="text-danger" th:errors="${patient.score}"></span>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>

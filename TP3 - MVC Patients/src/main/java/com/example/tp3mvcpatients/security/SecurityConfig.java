@@ -17,24 +17,30 @@ import javax.sql.DataSource;
 @EnableWebSecurity
 @AllArgsConstructor
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+    @Autowired
+    private DataSource dataSource;
+
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 
-        DataSource dataSource = null;
+        /*
         PasswordEncoder passwordEncoder = passwordEncoder();
         auth.inMemoryAuthentication()
                 .withUser("user1").password(passwordEncoder.encode("1234")).roles("USER")
                 .and().withUser("admin").password(passwordEncoder.encode("1234")).roles("USER","ADMIN");
 
         // les utilisateurs qu'on le droit d'acceder à l'application seront stocker au mémoire
-        // {noop} no password encoder
+        // {noop} no password encoder */
 
-        /*PasswordEncoder passwordEncoder = passwordEncoder();
+
+        PasswordEncoder passwordEncoder = passwordEncoder();
+        System.out.println(passwordEncoder.encode("1234"));
         auth.jdbcAuthentication().dataSource(dataSource)
-                .usersByUsernameQuery("Select username as principal, password as credentials, active from users where username = ?")
-                .usersByUsernameQuery("select username as principal, role as role from users_roles where username = ?")
+                .usersByUsernameQuery("Select username, password, active from users where username = ?")
+                .authoritiesByUsernameQuery("Select username, role from users_role where username = ?")
                 .rolePrefix("ROLE_")
-                .passwordEncoder(passwordEncoder);*/
+                .passwordEncoder(passwordEncoder);
 
     }
 
@@ -42,10 +48,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception { // droits d'acces
         // http.formLogin().loginPage("/login");
         http.formLogin();
-        http.authorizeHttpRequests().antMatchers("/delete/**","/new/**","/create/**","/update/**").hasRole("ADMIN");
+        http.authorizeHttpRequests().antMatchers("/admin/**").hasRole("ADMIN");
         http.authorizeHttpRequests().antMatchers("/index/**").hasRole("USER");
-        http.authorizeHttpRequests().anyRequest().authenticated();
         http.exceptionHandling().accessDeniedPage("/403");
+        http.authorizeHttpRequests().anyRequest().authenticated();
 
     }
 

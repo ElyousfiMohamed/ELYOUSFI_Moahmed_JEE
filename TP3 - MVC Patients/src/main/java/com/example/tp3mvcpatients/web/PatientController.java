@@ -41,25 +41,37 @@ public class PatientController {
         return "patients";
     }
 
-    @GetMapping(path = "/delete")
+    @GetMapping(path = "/admin/delete")
     public String delete(Long id) {
         patientRepository.deleteById(id);
         return "redirect:/index";
     }
 
-    @GetMapping(path = "/new")
+    @GetMapping(path = "/admin/new")
     public String nouveau(Model model) {
         model.addAttribute("patient",new Patient());
         return "ajout";
     }
 
-    @PostMapping(path = "/create")
+    @PostMapping(path = "/admin/create")
     public String nouveau(Model model, @Valid Patient p, BindingResult bindingResult) {
+        if(bindingResult.hasErrors()) {
+            return  "ajout";
+        }
         patientRepository.save(p);
         return "redirect:/index";
     }
 
-    @GetMapping(path = "/update")
+    @PostMapping(path = "/admin/maj")
+    public String maj(Model model, @Valid Patient p, BindingResult bindingResult) {
+        if(bindingResult.hasErrors()) {
+            return  "modification";
+        }
+        patientRepository.save(p);
+        return "redirect:/index";
+    }
+
+    @GetMapping(path = "/admin/update")
     public String update(Model model, Long id) {
         Patient p = patientRepository.findPatientById(id);
         model.addAttribute("patient",p);
