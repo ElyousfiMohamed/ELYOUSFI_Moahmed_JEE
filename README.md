@@ -263,7 +263,9 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP3/Screenshot_26.png" width="700" height="450"/> 
         <h5>- Affichage</h5>
         <img src="./github/assets/images/TP3/Screenshot_28.png"/> 
-        <img src="./github/assets/images/TP3/Screenshot_29.png"/> 
+        <img src="./github/assets/images/TP3/Screenshot_29.png"/>
+        <h5>- Vérification</h5>
+        <img src="./github/assets/images/TP3/Screenshot_49.png"/>
         <h3>Modification</h3>
         <h5>- Ajout du path "/update" dans le controlleur</h5>   
         <img src="./github/assets/images/TP3/Screenshot_31.png" width="700"/> 
@@ -285,6 +287,16 @@ mais ici les instances sont passé a travers des beans</pre>
         <h5>- path access denied "/403" </h5>
         <img src="./github/assets/images/TP3/Screenshot_38.png" width="700"/> 
         <img src="./github/assets/images/TP3/Screenshot_39.png" width="700"/>
+        <img src="./github/assets/images/TP3/Screenshot_40.png"/>
+        <h3>Spring Security - jdbcAuthentication</h3>
+        <h5>- Table users </h5>   
+        <img src="./github/assets/images/TP3/Screenshot_45.png" width="700"/>
+        <h5>- Table roles</h5>
+        <img src="./github/assets/images/TP3/Screenshot_46.png" width="700"/>
+        <h5>- Table users_role (table d'association)</h5>
+        <img src="./github/assets/images/TP3/Screenshot_47.png" width="700"/>
+        <h5>- Récuperation des users et roles</h5>
+        <img src="./github/assets/images/TP3/Screenshot_48.png" width="700"/>
         <img src="./github/assets/images/TP3/Screenshot_40.png"/>
     </p>
 </details>
