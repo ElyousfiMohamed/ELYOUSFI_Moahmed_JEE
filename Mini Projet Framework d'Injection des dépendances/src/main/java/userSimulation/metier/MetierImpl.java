@@ -5,6 +5,7 @@ import userSimulation.dao.IDao;
 
 public class MetierImpl implements IMetier{
 
+    @Autowired
     public IDao dao;
 
     public MetierImpl(IDao dao) {
@@ -19,7 +20,6 @@ public class MetierImpl implements IMetier{
         return dao.getData()*5/Math.sin(15);
     }
 
-    @Autowired
     public void setDao(IDao dao) {
         this.dao = dao;
     }

@@ -1,7 +1,9 @@
 package userSimulation.ext;
 
+import annotations.Component;
 import userSimulation.dao.IDao;
 
+@Component
 public class DaoImplCapt implements IDao {
     @Override
     public double getData() {
