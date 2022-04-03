@@ -290,13 +290,13 @@ mais ici les instances sont passé a travers des beans</pre>
         <img src="./github/assets/images/TP3/Screenshot_40.png"/>
         <h3>Spring Security - jdbcAuthentication</h3>
         <h5>- Table users </h5>   
-        <img src="./github/assets/images/TP3/Screenshot_45.png" width="700"/>
+        <img src="./github/assets/images/TP3/Screenshot_45.png"/>
         <h5>- Table roles</h5>
-        <img src="./github/assets/images/TP3/Screenshot_46.png" width="700"/>
+        <img src="./github/assets/images/TP3/Screenshot_46.png"/>
         <h5>- Table users_role (table d'association)</h5>
-        <img src="./github/assets/images/TP3/Screenshot_47.png" width="700"/>
+        <img src="./github/assets/images/TP3/Screenshot_47.png"/>
         <h5>- Récuperation des users et roles</h5>
-        <img src="./github/assets/images/TP3/Screenshot_48.png" width="700"/>
+        <img src="./github/assets/images/TP3/Screenshot_48.png"/>
         <img src="./github/assets/images/TP3/Screenshot_40.png"/>
     </p>
 </details>
