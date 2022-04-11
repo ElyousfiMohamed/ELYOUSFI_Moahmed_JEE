@@ -29,4 +29,9 @@ public class ServiceEtudiantImpl implements IServiceEtudiant{
     public void deleteEtudiantById(Long id) {
         etudiantRepository.deleteEtudiantById(id);
     }
+
+    @Override
+    public Etudiant findEtudiantById(Long id) {
+        return etudiantRepository.findEtudiantById(id);
+    }
 }

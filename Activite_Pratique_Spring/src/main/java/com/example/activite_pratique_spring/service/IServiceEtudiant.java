@@ -10,5 +10,6 @@ public interface IServiceEtudiant {
     void saveEtudiant(Etudiant etudiant);
     Page<Etudiant> findByPrenomContains(String keyword, Pageable pageable);
     void deleteEtudiantById(Long id);
+    Etudiant findEtudiantById(Long id);
 
 }

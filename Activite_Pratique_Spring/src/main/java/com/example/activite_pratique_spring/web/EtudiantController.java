@@ -56,4 +56,20 @@ public class EtudiantController {
         service.saveEtudiant(e);
         return "redirect:/index";
     }
+
+    @PostMapping(path = "/admin/maj")
+    public String maj(Model model, @Valid Etudiant e, BindingResult bindingResult) {
+        if(bindingResult.hasErrors()) {
+            return "modification";
+        }
+        service.saveEtudiant(e);
+        return "redirect:/index";
+    }
+
+    @GetMapping(path = "/admin/update")
+    public String update(Model model, Long id) {
+        Etudiant e = service.findEtudiantById(id);
+        model.addAttribute("etudiant",e);
+        return "modification";
+    }
 }

@@ -1,0 +1,48 @@
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="Layout">
+<body>
+<div layout:fragment="cardBody">
+    <div class="col-md-6 offset-3">
+        <form method="post" th:action="@{/admin/maj}">
+            <input type="hidden" name="id" th:value="${etudiant.id}">
+            <div class="mb-3">
+                <label for="nom" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="nom" name="nom" th:value="${etudiant.nom}" required>
+                <span class="text-danger" th:errors="${etudiant.nom}"></span>
+            </div>
+            <div class="mb-3">
+                <label for="nom" class="form-label">Prenom</label>
+                <input type="text" class="form-control" id="prenom" name="prenom" th:value="${etudiant.prenom}" required>
+                <span class="text-danger" th:errors="${etudiant.prenom}"></span>
+            </div>
+            <div class="mb-3">
+                <label for="nom" class="form-label">Email</label>
+                <input type="text" class="form-control" id="email" name="email" th:value="${etudiant.email}" required>
+                <span class="text-danger" th:errors="${etudiant.email}"></span>
+            </div>
+            <div class="mb-3">
+                <label for="ddn" class="form-label">Date de naissance</label>
+                <input type="date" class="form-control" name="dateNaissance" id="ddn" th:value="${etudiant.dateNaissance}" required>
+                <span class="text-danger" th:errors="${etudiant.dateNaissance}"></span>
+            </div>
+            <div class="mb-3">
+                <select name="genre">
+                    <option th:each="genreOpt : ${T(com.example.activite_pratique_spring.entities.Genre).values()}"
+                            th:value="${genreOpt}" th:text="${genreOpt}"></option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <div>
+                    <input type="checkbox" id="enRegle" name="enRegle" th:checked="${etudiant.enRegle}" >
+                    <label for="enRegle">Est-ce-que l'étudiant en régle ?</label>
+                    <span class="text-danger" th:errors="${etudiant.enRegle}"></span>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
