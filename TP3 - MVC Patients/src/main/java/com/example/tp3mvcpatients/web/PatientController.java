@@ -65,7 +65,7 @@ public class PatientController {
     @PostMapping(path = "/admin/maj")
     public String maj(Model model, @Valid Patient p, BindingResult bindingResult) {
         if(bindingResult.hasErrors()) {
-            return  "modification";
+            return "modification";
         }
         patientRepository.save(p);
         return "redirect:/index";

@@ -1,5 +1,7 @@
 package com.example.tp3mvcpatients.security;
 
+import com.example.tp3mvcpatients.security.entities.AppUser;
+import com.example.tp3mvcpatients.security.service.IServiceSecurity;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -8,18 +10,25 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import javax.sql.DataSource;
+import java.util.ArrayList;
+import java.util.Collection;
 
 @Configuration
 @EnableWebSecurity
 @AllArgsConstructor
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-    @Autowired
-    private DataSource dataSource;
+    private UserDetailsService userDetailsService;
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
@@ -31,7 +40,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and().withUser("admin").password(passwordEncoder.encode("1234")).roles("USER","ADMIN");
 
         // les utilisateurs qu'on le droit d'acceder à l'application seront stocker au mémoire
-        // {noop} no password encoder */
+        // {noop} no password encoder
 
 
         PasswordEncoder passwordEncoder = passwordEncoder();
@@ -40,7 +49,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .usersByUsernameQuery("Select username, password, active from users where username = ?")
                 .authoritiesByUsernameQuery("Select username, role from users_role where username = ?")
                 .rolePrefix("ROLE_")
-                .passwordEncoder(passwordEncoder);
+                .passwordEncoder(passwordEncoder); */
+
+        auth.userDetailsService(userDetailsService);
 
     }
 
@@ -53,10 +64,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.exceptionHandling().accessDeniedPage("/403");
         http.authorizeHttpRequests().anyRequest().authenticated();
 
-    }
-
-    @Bean
-    PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
     }
 }
