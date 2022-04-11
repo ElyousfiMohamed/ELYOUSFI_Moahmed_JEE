@@ -23,7 +23,13 @@
             <form class="d-flex" method="get" th:action="@{index}">
                 <input type="search" aria-label="Search" placeholder="keyword" class="form-control me-2" name="keyword" th:value="${keyword}">
                 <button class="btn btn-light" type="submit">Search</button>
-            </form>&nbsp;
+            </form>&nbsp
+            <div class="dropdown">
+                <button class="btn btn-light" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span sec:authentication="name"></span>
+                </button>&nbsp
+                <a th:href="@{/logout}" class="btn btn-danger" >Logout</a>
+            </div>
         </div>
     </div>
 </nav>

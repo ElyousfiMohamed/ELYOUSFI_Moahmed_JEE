@@ -36,6 +36,14 @@ public class EtudiantController {
         return "etudiants";
     }
 
+    /*
+        @DeleteMapping("/admin/delete/{id}")
+        public String supprimerEtudiant(@PathVariable("id") Long id) {
+            service.deleteEtudiantById(id);
+            return "redirect:/index";
+        }
+    */
+
     @GetMapping(path = "/admin/delete")
     public String supprimerEtudiant(Long id) {
         service.deleteEtudiantById(id);
