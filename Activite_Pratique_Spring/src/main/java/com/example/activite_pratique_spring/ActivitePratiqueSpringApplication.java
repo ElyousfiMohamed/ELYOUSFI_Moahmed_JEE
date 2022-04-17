@@ -4,10 +4,13 @@ import com.example.activite_pratique_spring.entities.Etudiant;
 import com.example.activite_pratique_spring.entities.Genre;
 import com.example.activite_pratique_spring.security.service.IServiceSecurity;
 import com.example.activite_pratique_spring.service.IServiceEtudiant;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import java.util.Date;
 

@@ -1,7 +1,5 @@
 package com.example.tp3mvcpatients.security;
 
-import com.example.tp3mvcpatients.security.entities.AppUser;
-import com.example.tp3mvcpatients.security.service.IServiceSecurity;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

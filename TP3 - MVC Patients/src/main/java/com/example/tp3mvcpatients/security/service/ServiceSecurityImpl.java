@@ -1,6 +1,6 @@
 package com.example.tp3mvcpatients.security.service;
 
-import com.example.tp3mvcpatients.security.entities.AppRole;
+import com.example.tp3mvcpatients.security.entities.AppUser;
 import com.example.tp3mvcpatients.security.entities.AppUser;
 import com.example.tp3mvcpatients.security.repositories.AppRoleRepository;
 import com.example.tp3mvcpatients.security.repositories.AppUserRepository;
@@ -11,7 +11,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import sun.security.util.Password;
 
 import java.util.UUID;
 

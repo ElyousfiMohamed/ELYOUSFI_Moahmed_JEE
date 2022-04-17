@@ -7,7 +7,6 @@ import com.example.activite_pratique_spring.security.repositories.AppUserReposit
 import groovy.util.logging.Slf4j;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Lazy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -96,11 +95,5 @@ public class ServiceSecurityImpl implements IServiceSecurity {
     public AppRole loadByRoleName(String rolename) {
         return appRoleRepository.findAppRoleByRoleName(rolename);
     }
-
-    @Bean
-    public static PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
 }
-
 
