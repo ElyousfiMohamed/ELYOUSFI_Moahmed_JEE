@@ -1,13 +1,11 @@
 package com.example.tp3mvcpatients.security.service;
 
-import com.example.tp3mvcpatients.security.entities.AppUser;
+import com.example.tp3mvcpatients.security.entities.AppRole;
 import com.example.tp3mvcpatients.security.entities.AppUser;
 import com.example.tp3mvcpatients.security.repositories.AppRoleRepository;
 import com.example.tp3mvcpatients.security.repositories.AppUserRepository;
 import groovy.util.logging.Slf4j;
 import lombok.AllArgsConstructor;
-import org.springframework.context.annotation.Bean;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -47,6 +45,7 @@ public class ServiceSecurityImpl implements IServiceSecurity {
         AppRole appRole = appRoleRepository.findAppRoleByRoleName(rolename);
 
         if (appRole == null) {
+            appRole = new AppRole();
             appRole.setRoleName(rolename);
             appRole.setDescription(desciption);
             appRoleRepository.save(appRole);

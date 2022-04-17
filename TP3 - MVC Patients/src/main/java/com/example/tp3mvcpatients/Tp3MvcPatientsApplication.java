@@ -48,9 +48,4 @@ public class Tp3MvcPatientsApplication {
             //patientRepository.findAll().forEach(patient -> System.out.println(patient));
         };
     }
-
-    @Bean
-    PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
 }
