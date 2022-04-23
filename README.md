@@ -87,6 +87,75 @@
 ---
 
 <details>
+    <summary>Activité Pratique Spring (cliquez  🖱) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/Activite_Pratique_Spring/src/main/java/com/example/activite_pratique_spring"> [Code source]</a></summary><br>
+    <p>
+        <h3>Entities</h3>
+        <h5>- Entity Etudiant</h5>
+        <img src="./github/assets/images/AP/Screenshot_1.png" width="700"/>
+	<h5>- Enum Genre</h5>
+        <img src="./github/assets/images/AP/Screenshot_2.png" width="700"/>
+	<h3>Repositories</h3>
+        <h5>- Etudiant Repository</h5>
+        <img src="./github/assets/images/AP/Screenshot_3.png" width="700"/>
+	<h3>Services</h3>
+	<h5>- Service Etudiant</h5>
+        <img src="./github/assets/images/AP/Screenshot_16.png" width="700"/>
+	<img src="./github/assets/images/AP/Screenshot_17.png" width="700"/>
+	<h3>Controllers</h3>
+        <h5>- Etudiant Controller</h5>
+        <img src="./github/assets/images/AP/Screenshot_18.png" width="700"/>
+	<img src="./github/assets/images/AP/Screenshot_19.png" width="700"/>
+	<img src="./github/assets/images/AP/Screenshot_20.png" width="700"/>
+	<h5>- Security Controller</h5>
+        <img src="./github/assets/images/AP/Screenshot_21.png" width="700"/>
+	<h3>Spring Security</h3>
+	<h5>- AppUser Entity</h5>
+        <img src="./github/assets/images/AP/Screenshot_5.png" width="700"/>
+	<h5>- AppRole Entity</h5>
+        <img src="./github/assets/images/AP/Screenshot_4.png" width="700"/>
+	<h5>- AppUser Repository</h5>
+        <img src="./github/assets/images/AP/Screenshot_7.png" width="700"/>
+	<h5>- AppRole Repository</h5>
+        <img src="./github/assets/images/AP/Screenshot_6.png" width="700"/>
+	<h5>- IService Security + Implementation</h5>
+        <img src="./github/assets/images/AP/Screenshot_8.png" width="700"/>
+	<img src="./github/assets/images/AP/Screenshot_11.png" width="700"/>
+	<img src="./github/assets/images/AP/Screenshot_12.png" width="700"/>
+	<img src="./github/assets/images/AP/Screenshot_13.png" width="700"/>
+	<img src="./github/assets/images/AP/Screenshot_14.png" width="700"/>
+	<h5>- PassEncoder Bean</h5>
+        <img src="./github/assets/images/AP/Screenshot_9.png" width="700"/>
+	<h5>- Security Config</h5>
+        <img src="./github/assets/images/AP/Screenshot_15.png" width="700"/>
+        <h5>- Remplir la bdd par des données</h5>   
+        <img src="./github/assets/images/AP/Screenshot_22.png" width="700"/> 
+        <h5>- Templates Thymeleaf</h5>
+        <img src="./github/assets/images/AP/Screenshot_23.png" width="700"/> 
+	<h3>Login</h3>
+        <img src="./github/assets/images/AP/Screenshot_24.png"/> 
+        <h3>Pagination</h3>
+        <img src="./github/assets/images/AP/Screenshot_25.png"/> 
+        <img src="./github/assets/images/AP/Screenshot_26.png"/> 
+        <h3>Recherche</h3>
+        <img src="./github/assets/images/AP/Screenshot_27.png"/> 
+        <h3>Suppression</h3>
+        <img src="./github/assets/images/AP/Screenshot_28.png"/> 
+	<img src="./github/assets/images/AP/Screenshot_29.png"/>
+        <h3>Modification</h3>
+        <img src="./github/assets/images/AP/Screenshot_30.png"/>
+        <img src="./github/assets/images/AP/Screenshot_31.png"/>
+	<h3>Ajout</h3>
+        <img src="./github/assets/images/AP/Screenshot_32.png"/>
+        <img src="./github/assets/images/AP/Screenshot_33.png"/>
+	<h3>Logout</h3>
+        <img src="./github/assets/images/AP/Screenshot_34.png"/>
+        <img src="./github/assets/images/AP/Screenshot_35.png"/>
+    </p>
+</details>
+
+---
+
+<details>
     <summary>TP1 - Injection des dépendances (cliquez  🖱) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/TP1%20-%20Semaine%201%20et%202%20(Injection%20de%20dependances)"> [Code source]</a></summary><br>
     <p>
         On considère le schéma suivant ou les classes sont liées par un couplage faible<br>
