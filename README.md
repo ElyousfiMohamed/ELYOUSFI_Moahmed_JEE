@@ -91,65 +91,65 @@
     <p>
         <h3>Entities</h3>
         <h5>- Entity Etudiant</h5>
-        <img src="./github/assets/images/AP/Screenshot_1.png" width="700"/>
+        <img src="./github/assets/images/AP/Screenshot_1.jpg" width="700"/>
 	<h5>- Enum Genre</h5>
-        <img src="./github/assets/images/AP/Screenshot_2.png" width="700"/>
+        <img src="./github/assets/images/AP/Screenshot_2.jpg" width="700"/>
 	<h3>Repositories</h3>
         <h5>- Etudiant Repository</h5>
-        <img src="./github/assets/images/AP/Screenshot_3.png" width="700"/>
+        <img src="./github/assets/images/AP/Screenshot_3.jpg" width="700"/>
 	<h3>Services</h3>
 	<h5>- Service Etudiant</h5>
-        <img src="./github/assets/images/AP/Screenshot_16.png" width="700"/>
-	<img src="./github/assets/images/AP/Screenshot_17.png" width="700"/>
+        <img src="./github/assets/images/AP/Screenshot_16.jpg" width="700"/>
+	<img src="./github/assets/images/AP/Screenshot_17.jpg" width="700"/>
 	<h3>Controllers</h3>
         <h5>- Etudiant Controller</h5>
-        <img src="./github/assets/images/AP/Screenshot_18.png" width="700"/>
-	<img src="./github/assets/images/AP/Screenshot_19.png" width="700"/>
-	<img src="./github/assets/images/AP/Screenshot_20.png" width="700"/>
+        <img src="./github/assets/images/AP/Screenshot_18.jpg" width="700"/>
+	<img src="./github/assets/images/AP/Screenshot_19.jpg" width="700"/>
+	<img src="./github/assets/images/AP/Screenshot_20.jpg" width="700"/>
 	<h5>- Security Controller</h5>
-        <img src="./github/assets/images/AP/Screenshot_21.png" width="700"/>
+        <img src="./github/assets/images/AP/Screenshot_21.jpg" width="700"/>
 	<h3>Spring Security</h3>
 	<h5>- AppUser Entity</h5>
-        <img src="./github/assets/images/AP/Screenshot_5.png" width="700"/>
+        <img src="./github/assets/images/AP/Screenshot_5.jpg" width="700"/>
 	<h5>- AppRole Entity</h5>
-        <img src="./github/assets/images/AP/Screenshot_4.png" width="700"/>
+        <img src="./github/assets/images/AP/Screenshot_4.jpg" width="700"/>
 	<h5>- AppUser Repository</h5>
-        <img src="./github/assets/images/AP/Screenshot_7.png" width="700"/>
+        <img src="./github/assets/images/AP/Screenshot_7.jpg" width="700"/>
 	<h5>- AppRole Repository</h5>
-        <img src="./github/assets/images/AP/Screenshot_6.png" width="700"/>
+        <img src="./github/assets/images/AP/Screenshot_6.jpg" width="700"/>
 	<h5>- IService Security + Implementation</h5>
-        <img src="./github/assets/images/AP/Screenshot_8.png" width="700"/>
-	<img src="./github/assets/images/AP/Screenshot_11.png" width="700"/>
-	<img src="./github/assets/images/AP/Screenshot_12.png" width="700"/>
-	<img src="./github/assets/images/AP/Screenshot_13.png" width="700"/>
-	<img src="./github/assets/images/AP/Screenshot_14.png" width="700"/>
+        <img src="./github/assets/images/AP/Screenshot_8.jpg" width="700"/>
+	<img src="./github/assets/images/AP/Screenshot_11.jpg" width="700"/>
+	<img src="./github/assets/images/AP/Screenshot_12.jpg" width="700"/>
+	<img src="./github/assets/images/AP/Screenshot_13.jpg" width="700"/>
+	<img src="./github/assets/images/AP/Screenshot_14.jpg" width="700"/>
 	<h5>- PassEncoder Bean</h5>
-        <img src="./github/assets/images/AP/Screenshot_9.png" width="700"/>
+        <img src="./github/assets/images/AP/Screenshot_9.jpg" width="700"/>
 	<h5>- Security Config</h5>
-        <img src="./github/assets/images/AP/Screenshot_15.png" width="700"/>
+        <img src="./github/assets/images/AP/Screenshot_15.jpg" width="700"/>
         <h5>- Remplir la bdd par des données</h5>   
-        <img src="./github/assets/images/AP/Screenshot_22.png" width="700"/> 
+        <img src="./github/assets/images/AP/Screenshot_22.jpg" width="700"/> 
         <h5>- Templates Thymeleaf</h5>
-        <img src="./github/assets/images/AP/Screenshot_23.png" width="700"/> 
+        <img src="./github/assets/images/AP/Screenshot_23.jpg" width="700"/> 
 	<h3>Login</h3>
-        <img src="./github/assets/images/AP/Screenshot_24.png"/> 
+        <img src="./github/assets/images/AP/Screenshot_24.jpg"/> 
         <h3>Pagination</h3>
-        <img src="./github/assets/images/AP/Screenshot_25.png"/> 
-        <img src="./github/assets/images/AP/Screenshot_26.png"/> 
+        <img src="./github/assets/images/AP/Screenshot_25.jpg"/> 
+        <img src="./github/assets/images/AP/Screenshot_26.jpg"/> 
         <h3>Recherche</h3>
-        <img src="./github/assets/images/AP/Screenshot_27.png"/> 
+        <img src="./github/assets/images/AP/Screenshot_27.jpg"/> 
         <h3>Suppression</h3>
-        <img src="./github/assets/images/AP/Screenshot_28.png"/> 
-	<img src="./github/assets/images/AP/Screenshot_29.png"/>
+        <img src="./github/assets/images/AP/Screenshot_28.jpg"/> 
+	<img src="./github/assets/images/AP/Screenshot_29.jpg"/>
         <h3>Modification</h3>
-        <img src="./github/assets/images/AP/Screenshot_30.png"/>
-        <img src="./github/assets/images/AP/Screenshot_31.png"/>
+        <img src="./github/assets/images/AP/Screenshot_30.jpg"/>
+        <img src="./github/assets/images/AP/Screenshot_31.jpg"/>
 	<h3>Ajout</h3>
-        <img src="./github/assets/images/AP/Screenshot_32.png"/>
-        <img src="./github/assets/images/AP/Screenshot_33.png"/>
+        <img src="./github/assets/images/AP/Screenshot_32.jpg"/>
+        <img src="./github/assets/images/AP/Screenshot_33.jpg"/>
 	<h3>Logout</h3>
-        <img src="./github/assets/images/AP/Screenshot_34.png"/>
-        <img src="./github/assets/images/AP/Screenshot_35.png"/>
+        <img src="./github/assets/images/AP/Screenshot_34.jpg"/>
+        <img src="./github/assets/images/AP/Screenshot_35.jpg"/>
     </p>
 </details>
 
