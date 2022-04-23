@@ -87,7 +87,7 @@
 ---
 
 <details>
-    <summary>Activité Pratique Spring (cliquez  🖱) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/Activite_Pratique_Spring/src/main/java/com/example/activite_pratique_spring"> [Code source]</a></summary><br>
+    <summary>Activité Pratique Spring - Etudiants(cliquez  🖱) <a href="https://github.com/ElyousfiMohamed/ELYOUSFI_Moahmed_JEE/tree/main/Activite_Pratique_Spring/src/main/java/com/example/activite_pratique_spring"> [Code source]</a></summary><br>
     <p>
         <h3>Entities</h3>
         <h5>- Entity Etudiant</h5>
