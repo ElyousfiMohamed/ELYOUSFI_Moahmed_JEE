@@ -1,7 +1,8 @@
 package com.example.demo.web;
 
-import com.example.demo.entities.Product;
-import com.example.demo.services.EcomService;
+import com.example.demo.entities.*;
+import com.example.demo.services.*;
+
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

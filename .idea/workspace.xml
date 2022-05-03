@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ac5e197-090d-4bca-8c91-16974644606f" name="Changes" comment="TP1 - Injection de dependances Statique/Dynamique/Framework">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/.idea/Angular.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/web/ProductRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/web/ProductRestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +71,7 @@
       <workItem from="1648904576773" duration="17000" />
       <workItem from="1648904629732" duration="196000" />
       <workItem from="1648904828885" duration="16000" />
+      <workItem from="1651565884378" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="TP1 - Injection de dependances Statique/Dynamique/Framework">
       <created>1645467778532</created>
