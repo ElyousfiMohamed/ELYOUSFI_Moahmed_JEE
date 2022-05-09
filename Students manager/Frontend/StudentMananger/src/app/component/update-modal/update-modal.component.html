@@ -1,0 +1,59 @@
+<!-- Update Modal -->
+<div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addModalLabel">Modifier Etudiant</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form #updateForm="ngForm" (ngSubmit)="onUpdateEtudiant(updateForm)">
+          <div class="mb-3">
+            <label for="nom" class="form-label">Nom</label>
+            <input type="hidden" ngModel="{{etudiant?.id}}" name="id">
+            <input type="text" ngModel="{{etudiant?.nom}}" ngDefaultControl class="form-control" id="nom" name="nom" required>
+            <span class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+            <label for="prenom" class="form-label">Prenom</label>
+            <input type="text" ngModel="{{etudiant?.prenom}}" class="form-control" id="prenom" name="prenom" required>
+            <span class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="text" ngModel="{{etudiant?.email}}" class="form-control" id="email" name="email" required>
+            <span class="text-danger" ></span>
+          </div>
+          <div class="mb-3">
+            <label for="image" class="form-label">Image url</label>
+            <input type="text" ngModel="{{etudiant?.imageUrl}}" class="form-control" value="{{etudiant.imageUrl}}" id="image" name="imageUrl" required>
+            <span class="text-danger" ></span>
+          </div>
+          <div class="mb-3">
+            <label for="ddn" class="form-label">Date de naissance</label>
+            <input type="date" ngModel="{{etudiant?.dateNaissance}}" class="form-control" name="dateNaissance" id="ddn" required>
+            <span class="text-danger" ></span>
+          </div>
+          <div class="mb-3">
+            <label for="genre" class="form-label" style="margin-left: 5px">Genre</label>
+            <select class="form-select" ngModel="{{etudiant?.genre}}" id="genre" name="genre" required>
+              <option value="M">Masculin</option>
+              <option value="F">Feminin</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <div>
+              <input type="checkbox" ngModel="{{etudiant?.enRegle}}" id="enRegle" name="enRegle" checked>
+              <label for="enRegle" style="margin-left: 5px">Est-ce-que l'étudiant en régle ?</label>
+              <span class="text-danger"></span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button id="closed" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" [disabled]="updateForm.invalid" class="btn btn-primary">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

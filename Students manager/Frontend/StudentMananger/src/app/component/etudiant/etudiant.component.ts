@@ -1,7 +1,7 @@
 import { HttpErrorResponse } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import { EtudiantService } from 'src/app/service/etudiant.service';
-import { Etudiant } from '../../model/etudiant';
+import { Etudiant,Genre } from '../../model/etudiant';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +12,8 @@ export class EtudiantComponent implements OnInit {
   public etudiants: Etudiant[] = [];
 
   constructor(private etudiantSRV: EtudiantService) { }
+
+  etudiantCurrent: Etudiant = this.etudiants[0];
 
   ngOnInit(): void {
     this.getEtudiants();
@@ -26,5 +28,17 @@ export class EtudiantComponent implements OnInit {
         alert(error.message);
       }
     );
+  }
+
+  public currentEtudiant(etudiantCurrent: Etudiant){
+    this.etudiantCurrent = etudiantCurrent;
+  }
+
+  getIt() {
+    this.getEtudiants();
+  }
+
+  getSearch(etudiantsSearch: Etudiant[]) {
+      this.etudiants = etudiantsSearch;
   }
 }

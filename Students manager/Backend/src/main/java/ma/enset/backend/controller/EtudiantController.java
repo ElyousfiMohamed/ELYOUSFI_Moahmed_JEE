@@ -7,25 +7,23 @@ import ma.enset.backend.model.Etudiant;
 import ma.enset.backend.service.EtudiantSRV;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.stereotype.Controller;
+import org.springframework.data.domain.Sort;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.List;
 
 @ResponseBody
 @AllArgsConstructor
-@Controller
+@RestController
 public class EtudiantController {
     EtudiantSRV service;
     EtudiantConverter converter;
 
     @GetMapping("/etudiants")
-    public List<EtudiantDto> etudiantList() {
-        return converter.etudiantToDto(service.findAll());
+    public List<EtudiantDto> etudiantList(@RequestParam(name = "page", defaultValue = "0") int page,
+                                          @RequestParam(name = "size", defaultValue = "6") int size) {
+            return service.findAll(PageRequest.of(page,size)).getContent();
     }
 
     @GetMapping("/etudiants/{id}")

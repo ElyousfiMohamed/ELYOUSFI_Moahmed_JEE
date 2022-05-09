@@ -2,12 +2,17 @@ package ma.enset.backend;
 
 import ma.enset.backend.model.Etudiant;
 import ma.enset.backend.model.Genre;
+import ma.enset.backend.security.service.IServiceSecurity;
 import ma.enset.backend.service.EtudiantSRV;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.web.filter.CorsFilter;
 
+import java.util.Arrays;
 import java.util.Date;
 
 @SpringBootApplication
@@ -18,19 +23,42 @@ public class BackendApplication {
     }
 
     @Bean
-    CommandLineRunner commandLineRunner(EtudiantSRV service) {
+    CommandLineRunner commandLineRunner(EtudiantSRV service, IServiceSecurity serviceSecurity) {
         return args -> {
             for (int i = 0; i < 20; i++) {
                 service.saveEtudiant(new Etudiant(null, "ELYOUSFI", "Mohamed", "mohamed@gmail.com",
-                        "https://picsum.photos/300/300",new Date(), Genre.M, true));
-                service.saveEtudiant(new Etudiant(null, "ELYOUSFI", "Oussama", "oussama@gmail.com",
-                        "https://picsum.photos/300/300",new Date(), Genre.M, true));
-                service.saveEtudiant(new Etudiant(null, "ELYOUSFI", "Fatima", "fatima@gmail.com",
-                        "https://picsum.photos/300/300",new Date(), Genre.F, true));
+                        "https://www.bootdey.com/app/webroot/img/Content/avatar/avatar7.png"
+                        , new Date(), Genre.M, true));
                 service.saveEtudiant(new Etudiant(null, "ELYOUSFI", "Firdauosse", "firdauosse@gmail.com",
-                        "https://picsum.photos/300/300",new Date(), Genre.F, true));
+                        "https://www.bootdey.com/app/webroot/img/Content/avatar/avatar3.png"
+                        , new Date(), Genre.F, false));
             }
+            serviceSecurity.saveNewUser("khadija", "1234", "1234");
+            serviceSecurity.saveNewUser("hamza", "1234", "1234");
+
+            serviceSecurity.saveNewRole("USER", "");
+            serviceSecurity.saveNewRole("ADMIN", "");
+
+            serviceSecurity.addRoleToUser("khadija", "USER");
+            serviceSecurity.addRoleToUser("khadija", "ADMIN");
+            serviceSecurity.addRoleToUser("hamza", "USER");
         };
+    }
+
+    @Bean
+    public CorsFilter corsFilter() {
+        CorsConfiguration corsConfiguration = new CorsConfiguration();
+        corsConfiguration.setAllowCredentials(true);
+        corsConfiguration.setAllowedOrigins(Arrays.asList("http://localhost:4200"));
+        corsConfiguration.setAllowedHeaders(Arrays.asList("Origin", "Access-Control-Allow-Origin", "Content-Type",
+                "Accept", "Authorization", "Origin, Accept", "X-Requested-With",
+                "Access-Control-Request-Method", "Access-Control-Request-Headers"));
+        corsConfiguration.setExposedHeaders(Arrays.asList("Origin", "Content-Type", "Accept", "Authorization",
+                "Access-Control-Allow-Origin", "Access-Control-Allow-Origin", "Access-Control-Allow-Credentials"));
+        corsConfiguration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
+        UrlBasedCorsConfigurationSource urlBasedCorsConfigurationSource = new UrlBasedCorsConfigurationSource();
+        urlBasedCorsConfigurationSource.registerCorsConfiguration("/**", corsConfiguration);
+        return new CorsFilter(urlBasedCorsConfigurationSource);
     }
 
 }
